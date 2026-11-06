@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-07",
+  "fetched_at": "2026-11-07T02:36:02+09:00",
+  "source": "https://github.com/trending?since=daily",
+  "repos": [
+    {
+      "rank": 1,
+      "full_name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "description_ko": "생각하는 속도로 코딩할 수 있는 고성능 멀티플레이어 코드 에디터. Atom과 Tree-sitter를 만든 팀이 만들었다.",
+      "language": "Rust",
+      "stars": 93306,
+      "forks": 11475,
+      "stars_today": 292
+    },
+    {
+      "rank": 2,
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "description_ko": "데이터 위에 의미·그래프 기반 추론 계층을 만드는 파이썬 프레임워크. LLM·에이전트 워크플로에서 쿼리 생성을 더 정확하게 하고, 검색과 설명 가능성을 높여준다.",
+      "language": "Python",
+      "stars": 8670,
+      "forks": 699,
+      "stars_today": 2005
+    },
+    {
+      "rank": 3,
+      "full_name": "rails/rails",
+      "url": "https://github.com/rails/rails",
+      "description": "Ruby on Rails",
+      "description_ko": "웹 애플리케이션을 빠르게 만드는 루비 웹 프레임워크, 루비 온 레일스.",
+      "language": "Ruby",
+      "stars": 58938,
+      "forks": 23824,
+      "stars_today": 152
+    },
+    {
+      "rank": 4,
+      "full_name": "mpv-player/mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "description": "🎥 Command line media player",
+      "description_ko": "커맨드라인에서 실행하는 미디어 플레이어.",
+      "language": "C",
+      "stars": 37816,
+      "forks": 3630,
+      "stars_today": 36
+    },
+    {
+      "rank": 5,
+      "full_name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "description_ko": "누구나 신뢰할 수 있고 효율적인 소프트웨어를 만들 수 있게 하는 프로그래밍 언어, 러스트.",
+      "language": "Rust",
+      "stars": 121290,
+      "forks": 17356,
+      "stars_today": 186
+    },
+    {
+      "rank": 6,
+      "full_name": "react/react",
+      "url": "https://github.com/react/react",
+      "description": "The library for web and native user interfaces.",
+      "description_ko": "웹과 네이티브 사용자 인터페이스를 만드는 라이브러리, 리액트.",
+      "language": "JavaScript",
+      "stars": 252136,
+      "forks": 51800,
+      "stars_today": 244
+    },
+    {
+      "rank": 7,
+      "full_name": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "description": "Deliver web apps with confidence 🚀",
+      "description_ko": "웹 앱을 자신 있게 만들 수 있게 해주는 프레임워크, 앵귤러.",
+      "language": "TypeScript",
+      "stars": 101219,
+      "forks": 28906,
+      "stars_today": 128
+    },
+    {
+      "rank": 8,
+      "full_name": "symfony/symfony",
+      "url": "https://github.com/symfony/symfony",
+      "description": "The Symfony PHP framework",
+      "description_ko": "PHP 웹 프레임워크, 심포니.",
+      "language": "PHP",
+      "stars": 31308,
+      "forks": 9942,
+      "stars_today": 89
+    },
+    {
+      "rank": 9,
+      "full_name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "description_ko": "모니터링 시스템이자 시계열 데이터베이스, 프로메테우스.",
+      "language": "Go",
+      "stars": 67055,
+      "forks": 10979,
+      "stars_today": 140
+    },
+    {
+      "rank": 10,
+      "full_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "description_ko": "구글 제품과 기술에 쓰는 에이전트 스킬 모음.",
+      "language": "Python",
+      "stars": 22728,
+      "forks": 1910,
+      "stars_today": 532
+    }
+  ]
+}
