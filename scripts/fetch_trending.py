@@ -1,14 +1,22 @@
 #!/usr/bin/env python3
-"""Fetch GitHub Trending (daily) and save it as JSON + Markdown.
+"""Fetch GitHub Trending (daily, weekly, monthly) and save it as JSON.
 
-- Source: https://github.com/trending?since=daily
-- Output: data/YYYY-MM-DD.json, data/trending.json, data/index.json
+- Sources: https://github.com/trending?since=daily|weekly|monthly
+- Output (daily, unchanged layout for backward compatibility):
+    data/YYYY-MM-DD.json, data/trending.json, data/index.json
+- Output (weekly / monthly):
+    data/weekly/YYYY-MM-DD.json, data/weekly.json, data/weekly/index.json
+    data/monthly/YYYY-MM-DD.json, data/monthly.json, data/monthly/index.json
 - description_ko: tries the free MyMemory translation API (en -> ko).
   If translation fails, it falls back to the original English text,
-  so the daily job never fails just because translation is unavailable.
-  Manual Korean edits in data files are preserved only for that date;
-  the script does not overwrite a date file that already has
-  hand-written description_ko values unless the repo list changed.
+  so the job never fails just because translation is unavailable.
+  Manual Korean edits are preserved per period file: a hand-written
+  description_ko in data/weekly/YYYY-MM-DD.json only applies to the
+  weekly entry for that repo/date, never to daily or monthly, and
+  vice versa.
+- Each repo entry carries "stars_period" (stars gained in the period).
+  Daily entries also carry "stars_today" (= stars_period) so older
+  consumers of data/trending.json keep working.
 """
 import json
 import re
@@ -20,12 +28,20 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-TRENDING_URL = "https://github.com/trending?since=daily"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml",
     "Accept-Language": "en-US,en;q=0.9",
 }
+
+# period -> (since query value, stars label on the trending page)
+PERIODS = {
+    "daily": ("daily", "stars today"),
+    "weekly": ("weekly", "stars this week"),
+    "monthly": ("monthly", "stars this month"),
+}
+
+_translation_cache = {}
 
 
 def clean(text):
@@ -46,9 +62,16 @@ def parse_number(text):
 
 
 def translate_ko(text):
-    """Best-effort English -> Korean via MyMemory. Returns None on failure."""
+    """Best-effort English -> Korean via MyMemory. Returns None on failure.
+
+    Results are cached per description text within a run, so a repo that
+    appears in more than one period is translated only once.
+    """
     if not text:
         return None
+    if text in _translation_cache:
+        return _translation_cache[text]
+    result = None
     try:
         q = urllib.parse.urlencode({"q": text, "langpair": "en|ko"})
         req = urllib.request.Request(
@@ -59,14 +82,17 @@ def translate_ko(text):
         out = payload.get("responseData", {}).get("translatedText", "")
         out = clean(out)
         if out and out.lower() != text.lower() and "QUERY LENGTH LIMIT" not in out:
-            return out
+            result = out
     except Exception:
         pass
-    return None
+    _translation_cache[text] = result
+    return result
 
 
-def fetch_trending():
-    req = urllib.request.Request(TRENDING_URL, headers=HEADERS)
+def fetch_trending(period):
+    since, stars_label = PERIODS[period]
+    url = f"https://github.com/trending?since={since}"
+    req = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(req, timeout=30) as resp:
         html = resp.read().decode("utf-8", "replace")
 
@@ -104,34 +130,42 @@ def fetch_trending():
 
         stars = link_number("stargazers")
         forks = link_number("forks")
-        today_m = re.search(r"([\d,]+)\s+stars today", art)
-        stars_today = parse_number(today_m.group(1)) if today_m else None
-        repos.append(
-            {
-                "rank": len(repos) + 1,
-                "full_name": full_name,
-                "url": f"https://github.com/{full_name}",
-                "description": description,
-                "description_ko": description,
-                "language": language,
-                "stars": stars,
-                "forks": forks,
-                "stars_today": stars_today,
-            }
-        )
+        period_m = re.search(rf"([\d,]+)\s+{re.escape(stars_label)}", art)
+        stars_period = parse_number(period_m.group(1)) if period_m else None
+        entry = {
+            "rank": len(repos) + 1,
+            "full_name": full_name,
+            "url": f"https://github.com/{full_name}",
+            "description": description,
+            "description_ko": description,
+            "language": language,
+            "stars": stars,
+            "forks": forks,
+            "stars_period": stars_period,
+        }
+        if period == "daily":
+            # Backward compatibility with the original daily format.
+            entry["stars_today"] = stars_period
+        repos.append(entry)
     return repos
 
 
-def main():
-    kst = timezone(timedelta(hours=9))
-    today = datetime.now(kst).strftime("%Y-%m-%d")
-    fetched_at = datetime.now(kst).strftime("%Y-%m-%dT%H:%M:%S+09:00")
-    repos = fetch_trending()
-    if not repos:
-        raise SystemExit("No trending repos parsed; refusing to overwrite data.")
+def period_dir(period):
+    """data/ for daily, data/weekly/ and data/monthly/ otherwise."""
+    return DATA if period == "daily" else DATA / period
 
-    # Preserve hand-written Korean explanations for the same date, if any.
-    date_path = DATA / f"{today}.json"
+
+def latest_filename(period):
+    return "trending.json" if period == "daily" else f"{period}.json"
+
+
+def save_period(period, today, fetched_at):
+    repos = fetch_trending(period)
+    if not repos:
+        raise SystemExit(f"No trending repos parsed for {period}; refusing to overwrite data.")
+
+    # Preserve hand-written Korean explanations for this period/date only.
+    date_path = period_dir(period) / f"{today}.json"
     old_ko = {}
     if date_path.exists():
         try:
@@ -148,19 +182,20 @@ def main():
             if ko:
                 repo["description_ko"] = ko
 
-    DATA.mkdir(parents=True, exist_ok=True)
+    period_dir(period).mkdir(parents=True, exist_ok=True)
     payload = {
+        "period": period,
         "date": today,
         "fetched_at": fetched_at,
-        "source": TRENDING_URL,
+        "source": f"https://github.com/trending?since={PERIODS[period][0]}",
         "repos": repos,
     }
     date_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (DATA / "trending.json").write_text(
+    (period_dir(period) / latest_filename(period)).write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
 
-    index_path = DATA / "index.json"
+    index_path = period_dir(period) / "index.json"
     dates = []
     if index_path.exists():
         try:
@@ -173,7 +208,16 @@ def main():
     index_path.write_text(
         json.dumps({"dates": dates}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"Saved {len(repos)} repos for {today}")
+    print(f"Saved {len(repos)} {period} repos for {today}")
+    return repos
+
+
+def main():
+    kst = timezone(timedelta(hours=9))
+    today = datetime.now(kst).strftime("%Y-%m-%d")
+    fetched_at = datetime.now(kst).strftime("%Y-%m-%dT%H:%M:%S+09:00")
+    for period in ("daily", "weekly", "monthly"):
+        save_period(period, today, fetched_at)
 
 
 if __name__ == "__main__":

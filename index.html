@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GitHub Daily Trending</title>
-<meta name="description" content="Daily archive of GitHub Trending repositories. UI in English, repo explanations in Korean.">
+<title>GitHub Trending Archive</title>
+<meta name="description" content="Archive of GitHub Trending repositories — daily, weekly and monthly. UI in English, repo explanations in Korean.">
 <style>
 :root{--bg:#f6f8fa;--card:#fff;--text:#1f2328;--muted:#656d76;--border:#d0d7de;--accent:#0969da}
 *{box-sizing:border-box}
@@ -13,6 +13,9 @@ header{background:#0d1117;color:#fff;padding:32px 20px 24px}
 .wrap{max-width:860px;margin:0 auto;padding:0 20px}
 header h1{margin:0 0 8px;font-size:32px}
 header p{margin:0;color:#c9d1d9}
+.tabs{display:flex;gap:8px;margin:20px 0 0}
+.tabs button{padding:10px 18px;border:1px solid var(--border);border-radius:999px;font-size:15px;background:#fff;color:var(--text);cursor:pointer}
+.tabs button.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
 .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:20px 0}
 select,input{padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:15px;background:#fff}
 input{flex:1;min-width:200px}
@@ -34,11 +37,16 @@ footer a{color:var(--accent)}
 <body>
 <header>
 <div class="wrap">
-<h1>GitHub Daily Trending</h1>
-<p>Top 10 trending repositories, archived every day. Repo explanations are in Korean.</p>
+<h1>GitHub Trending</h1>
+<p>Top 10 trending repositories, archived every day — daily, weekly and monthly. Repo explanations are in Korean.</p>
 </div>
 </header>
 <main class="wrap">
+<div class="tabs" role="tablist" aria-label="Trending period">
+<button id="tab-daily" class="active" role="tab" aria-selected="true">Daily</button>
+<button id="tab-weekly" role="tab" aria-selected="false">Weekly</button>
+<button id="tab-monthly" role="tab" aria-selected="false">Monthly</button>
+</div>
 <div class="controls">
 <label for="dateSelect">Date</label>
 <select id="dateSelect"></select>
@@ -49,15 +57,20 @@ footer a{color:var(--accent)}
 </main>
 <footer>
 <div class="wrap">
-<p>Source: <a href="https://github.com/trending?since=daily">github.com/trending</a> · Updated daily at 09:00 KST via GitHub Actions · <a href="https://github.com/ilhoonseo/github-daily-trending">View source on GitHub</a></p>
+<p>Source: <a href="https://github.com/trending?since=daily">daily</a> · <a href="https://github.com/trending?since=weekly">weekly</a> · <a href="https://github.com/trending?since=monthly">monthly</a> on github.com/trending · Updated daily at 09:00 KST via GitHub Actions · <a href="https://github.com/ilhoonseo/github-daily-trending">View source on GitHub</a></p>
 </div>
 </footer>
 <script>
 let current = null;
+let period = 'daily';
 const listEl = document.getElementById('list');
 const metaEl = document.getElementById('meta');
 const selectEl = document.getElementById('dateSelect');
 const searchEl = document.getElementById('search');
+
+const PERIOD_LABEL = {daily: 'today', weekly: 'this week', monthly: 'this month'};
+const PERIOD_DIR = {daily: 'data', weekly: 'data/weekly', monthly: 'data/monthly'};
+const PERIOD_INDEX = {daily: 'data/index.json', weekly: 'data/weekly/index.json', monthly: 'data/monthly/index.json'};
 
 function fmt(n){ return n == null ? '—' : n.toLocaleString('en-US'); }
 
@@ -66,9 +79,12 @@ function render(){
   const repos = (current?.repos || []).filter(r =>
     !q || r.full_name.toLowerCase().includes(q) || (r.description_ko||'').toLowerCase().includes(q) || (r.description||'').toLowerCase().includes(q) || (r.language||'').toLowerCase().includes(q)
   );
-  metaEl.textContent = current ? `${current.date} · ${current.repos.length} repositories · Fetched ${current.fetched_at || ''}` : '';
+  const label = PERIOD_LABEL[current?.period || period];
+  metaEl.textContent = current ? `${current.date} · ${label} · ${current.repos.length} repositories · Fetched ${current.fetched_at || ''}` : '';
   if(!repos.length){ listEl.innerHTML = '<p class="empty">No repositories match your search.</p>'; return; }
-  listEl.innerHTML = repos.map(r => `
+  listEl.innerHTML = repos.map(r => {
+    const starsPeriod = r.stars_period != null ? r.stars_period : r.stars_today;
+    return `
     <article class="card">
       <h2><span class="rank">#${r.rank}</span><a href="${r.url}" target="_blank" rel="noopener">${r.full_name}</a></h2>
       <p class="ko">${escapeHtml(r.description_ko || r.description || '')}</p>
@@ -76,29 +92,45 @@ function render(){
       <div class="tags">
         ${r.language ? `<span class="badge">${escapeHtml(r.language)}</span>` : ''}
         <span>★ ${fmt(r.stars)} stars</span>
-        <span>★ ${fmt(r.stars_today)} today</span>
+        <span>★ ${fmt(starsPeriod)} ${label}</span>
         <span>⑂ ${fmt(r.forks)} forks</span>
       </div>
-    </article>`).join('');
+    </article>`;
+  }).join('');
 }
 function escapeHtml(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 async function loadDate(date){
-  const res = await fetch(`data/${date}.json`);
+  const res = await fetch(`${PERIOD_DIR[period]}/${date}.json`);
   current = await res.json();
   render();
 }
-async function init(){
+async function loadPeriod(newPeriod){
+  period = newPeriod;
+  for(const p of ['daily','weekly','monthly']){
+    const btn = document.getElementById(`tab-${p}`);
+    btn.classList.toggle('active', p === period);
+    btn.setAttribute('aria-selected', String(p === period));
+  }
   try{
-    const idx = await (await fetch('data/index.json')).json();
+    const idx = await (await fetch(PERIOD_INDEX[period])).json();
     const dates = (idx.dates || []).slice().sort().reverse();
     selectEl.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join('');
-    selectEl.addEventListener('change', () => loadDate(selectEl.value));
-    searchEl.addEventListener('input', render);
     if(dates.length) await loadDate(dates[0]);
-    else listEl.innerHTML = '<p class="empty">No data yet.</p>';
+    else { current = null; listEl.innerHTML = '<p class="empty">No data yet for this period.</p>'; metaEl.textContent = ''; }
   }catch(e){
-    listEl.innerHTML = '<p class="empty">Could not load trending data.</p>';
+    current = null;
+    selectEl.innerHTML = '';
+    listEl.innerHTML = '<p class="empty">Could not load trending data for this period.</p>';
+    metaEl.textContent = '';
   }
+}
+async function init(){
+  for(const p of ['daily','weekly','monthly']){
+    document.getElementById(`tab-${p}`).addEventListener('click', () => loadPeriod(p));
+  }
+  selectEl.addEventListener('change', () => loadDate(selectEl.value));
+  searchEl.addEventListener('input', render);
+  await loadPeriod('daily');
 }
 init();
 </script>
