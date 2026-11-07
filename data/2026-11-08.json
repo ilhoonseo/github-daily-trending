@@ -1,0 +1,128 @@
+{
+  "period": "daily",
+  "date": "2026-11-08",
+  "fetched_at": "2026-11-08T06:21:05+09:00",
+  "source": "https://github.com/trending?since=daily",
+  "repos": [
+    {
+      "rank": 1,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "description_ko": "AI 상담원을 위한 브라우저 자동화 CLI",
+      "language": "Rust",
+      "stars": 46742,
+      "forks": 3202,
+      "stars_period": 180,
+      "stars_today": 180
+    },
+    {
+      "rank": 2,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "description_ko": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
+      "language": "JavaScript",
+      "stars": 65510,
+      "forks": 4258,
+      "stars_period": 2088,
+      "stars_today": 2088
+    },
+    {
+      "rank": 3,
+      "full_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "description_ko": "Google 제품 및 기술에 대한 상담원 기술",
+      "language": "Python",
+      "stars": 23314,
+      "forks": 1950,
+      "stars_period": 449,
+      "stars_today": 449
+    },
+    {
+      "rank": 4,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "description_ko": "실제 엔지니어를 위한 기술. 내 .agents 디렉토리에서 바로.",
+      "language": "Shell",
+      "stars": 317581,
+      "forks": 26570,
+      "stars_period": 1111,
+      "stars_today": 1111
+    },
+    {
+      "rank": 5,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "description_ko": "에이전트 스킬 공개 저장소.",
+      "language": "Python",
+      "stars": 188686,
+      "forks": 22242,
+      "stars_period": 386,
+      "stars_today": 386
+    },
+    {
+      "rank": 6,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "description_ko": "완전히 사용자 정의할 수 있고 에이전트가 준비된 오픈 소스 디자인 시스템",
+      "language": "TypeScript",
+      "stars": 14389,
+      "forks": 1179,
+      "stars_period": 185,
+      "stars_today": 185
+    },
+    {
+      "rank": 7,
+      "full_name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "description_ko": "프로메테우스 모니터링 시스템 및 시계열 데이터베이스.",
+      "language": "Go",
+      "stars": 67414,
+      "forks": 11000,
+      "stars_period": 325,
+      "stars_today": 325
+    },
+    {
+      "rank": 8,
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "description_ko": "소셜 네트워크에서 사용자 이름으로 소셜 미디어 계정 찾기",
+      "language": "Python",
+      "stars": 100277,
+      "forks": 11853,
+      "stars_period": 1819,
+      "stars_today": 1819
+    },
+    {
+      "rank": 9,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "description_ko": "가상머신을 갖춘 오픈소스 Grok Bot 대안.",
+      "language": "TypeScript",
+      "stars": 16857,
+      "forks": 2389,
+      "stars_period": 1986,
+      "stars_today": 1986
+    },
+    {
+      "rank": 10,
+      "full_name": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "description_ko": "Rust로 작성된 매우 빠른 Python linter 및 코드 포맷터입니다.",
+      "language": "Rust",
+      "stars": 50943,
+      "forks": 2628,
+      "stars_period": 350,
+      "stars_today": 350
+    }
+  ]
+}
