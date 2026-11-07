@@ -1,0 +1,19 @@
+{
+  "Donchitos/Claude-Code-Game-Studios": "Claude Code를 온전한 게임 개발 스튜디오로 바꿔준다. AI 에이전트 49개, 워크플로 스킬 72개, 실제 스튜디오 조직도를 본뜬 협업 시스템이 들어 있다.",
+  "HKUDS/DeepTutor": "평생 개인 맞춤형 튜터, 딥튜터.",
+  "NationalSecurityAgency/ghidra": "소프트웨어 리버스 엔지니어링(SRE) 프레임워크, 기드라.",
+  "Nutlope/hallmark": "Claude Code, Cursor, Codex용 안티 AI 티 나는 디자인 스킬. AI스러운 디자인을 잡아준다.",
+  "anthropics/skills": "에이전트 스킬 공개 저장소.",
+  "boykopovar/AnyPS5": "PS5 실행 파일을 Linux와 Windows로 자동 이식하는 도구.",
+  "cloudflare/security-audit-skill": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
+  "debpalash/VoiceStudio": "오픈소스, 완전 로컬 실행되는 ElevenLabs 대안. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 646개 언어 오디오북 제작이 가능하다.",
+  "heygen-com/hyperframes": "HTML을 쓰고 영상을 렌더링한다. 에이전트를 위해 만들었다.",
+  "max-sixty/worktrunk": "Git worktree 관리를 위한 CLI. 병렬 AI 에이전트 워크플로에 맞춰 설계됐다.",
+  "milind-soni/OpenMausBot": "가상머신을 갖춘 오픈소스 Grok Bot 대안.",
+  "morluto/rea": "에이전트로 무엇이든 리버스 엔지니어링한다. 앱 동작부터 네이티브 바이너리까지.",
+  "obra/superpowers": "실제로 동작하는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론.",
+  "pbakaus/impeccable": "코딩 에이전트를 위한 디자인 어휘. 세련되고 과감하게 방향을 잡고, 비평과 감사로 검토해 AI 티 나는 결과물을 출하 전에 잡아낸다.",
+  "pingdotgg/t3code": "GitHub에 등록된 설명이 없는 레포지토리.",
+  "storytold/artcraft": "아티스트, 디자이너, 영화 제작자를 위한 의도 중심 제작 엔진, 아트크래프트.",
+  "thedotmack/claude-mem": "모든 에이전트를 위한 세션 간 영구 컨텍스트. 에이전트가 세션 중 한 일을 전부 기록해 AI로 압축하고, 다음 세션에 필요한 맥락을 다시 넣어준다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등에서 동작한다."
+}
