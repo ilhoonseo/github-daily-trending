@@ -2,8 +2,11 @@ name: Daily trending update
 
 on:
   schedule:
-    # 00:00 UTC = 09:00 KST, every day
-    - cron: "0 0 * * *"
+    # Every 6 hours: 00, 06, 12, 18 UTC = 09, 15, 21, 03 KST.
+    # The script snapshots daily/weekly/monthly for the current KST
+    # date, and the commit step below only commits when data changed,
+    # so a period's list is re-recorded whenever it changes.
+    - cron: "0 0,6,12,18 * * *"
   workflow_dispatch:
 
 permissions:
