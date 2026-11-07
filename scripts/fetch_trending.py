@@ -7,13 +7,24 @@
 - Output (weekly / monthly):
     data/weekly/YYYY-MM-DD.json, data/weekly.json, data/weekly/index.json
     data/monthly/YYYY-MM-DD.json, data/monthly.json, data/monthly/index.json
-- description_ko: tries the free MyMemory translation API (en -> ko).
-  If translation fails, it falls back to the original English text,
-  so the job never fails just because translation is unavailable.
-  Manual Korean edits are preserved per period file: a hand-written
-  description_ko in data/weekly/YYYY-MM-DD.json only applies to the
-  weekly entry for that repo/date, never to daily or monthly, and
-  vice versa.
+- description_ko: first looks in data/translations.json, a hand-written
+  map of full_name -> Korean explanation. That file is the source of
+  truth for repos already translated, so a Korean explanation is reused
+  across daily/weekly/monthly and across dates. Otherwise it tries the
+  free MyMemory translation API (en -> ko). If translation fails, it
+  falls back to the original English text, so the job never fails just
+  because translation is unavailable. (MyMemory failed for every entry
+  in the 2026-11-07 weekly/monthly run, which is why translations.json
+  exists — hand-written Korean is more reliable than the free API.)
+  Manual Korean edits are preserved per period file as well: a
+  hand-written description_ko in data/weekly/YYYY-MM-DD.json only
+  applies to the weekly entry for that repo/date, never to daily or
+  monthly, and vice versa.
+- Recording cadence: the workflow runs every 6 hours and the script
+  saves a snapshot for the current KST date for all three periods.
+  If a period's top 10 changed since the last run, that date's file
+  is updated; the workflow only commits when data actually changed,
+  so unchanged runs create no commits.
 - Each repo entry carries "stars_period" (stars gained in the period).
   Daily entries also carry "stars_today" (= stars_period) so older
   consumers of data/trending.json keep working.
@@ -42,6 +53,21 @@ PERIODS = {
 }
 
 _translation_cache = {}
+
+
+def load_translations():
+    """Hand-written Korean explanations, data/translations.json.
+
+    Keyed by repo full_name, reused across periods and dates.
+    Returns {} when the file is missing or unreadable.
+    """
+    try:
+        return json.loads((DATA / "translations.json").read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+TRANSLATIONS = load_translations()
 
 
 def clean(text):
@@ -177,6 +203,8 @@ def save_period(period, today, fetched_at):
     for repo in repos:
         if repo["full_name"] in old_ko and old_ko[repo["full_name"]]:
             repo["description_ko"] = old_ko[repo["full_name"]]
+        elif repo["full_name"] in TRANSLATIONS:
+            repo["description_ko"] = TRANSLATIONS[repo["full_name"]]
         else:
             ko = translate_ko(repo["description"])
             if ko:
