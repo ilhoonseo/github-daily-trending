@@ -1,7 +1,7 @@
 {
   "period": "daily",
-  "date": "2026-11-08",
-  "fetched_at": "2026-11-08T21:38:10+09:00",
+  "date": "2026-11-09",
+  "fetched_at": "2026-11-09T06:35:13+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
@@ -11,8 +11,8 @@
       "description": "Hunt down social media accounts by username across social networks",
       "description_ko": "소셜 네트워크에서 사용자 이름으로 소셜 미디어 계정 찾기",
       "language": "Python",
-      "stars": 101807,
-      "forks": 12012,
+      "stars": 103178,
+      "forks": 12101,
       "stars_period": 2372,
       "stars_today": 2372
     },
@@ -23,8 +23,8 @@
       "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "description_ko": "NVIDIA Kubernetes Engine (NVKE). 베어 메탈의 GPU Kubernetes용 관리 플레인입니다.",
       "language": "Go",
-      "stars": 691,
-      "forks": 102,
+      "stars": 809,
+      "forks": 110,
       "stars_period": 345,
       "stars_today": 345
     },
@@ -35,8 +35,8 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "description_ko": "가상머신을 갖춘 오픈소스 Grok Bot 대안.",
       "language": "TypeScript",
-      "stars": 17656,
-      "forks": 2470,
+      "stars": 18117,
+      "forks": 2528,
       "stars_period": 1437,
       "stars_today": 1437
     },
@@ -47,8 +47,8 @@
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "description_ko": "개발자가 Claude API를 사용하여 배포 가능한 애플리케이션을 신속하게 구축할 수 있도록 설계된 프로젝트 모음",
       "language": "Python",
-      "stars": 19187,
-      "forks": 3263,
+      "stars": 19359,
+      "forks": 3278,
       "stars_period": 28,
       "stars_today": 28
     },
@@ -59,8 +59,8 @@
       "description": "Browser automation CLI for AI agents",
       "description_ko": "AI 상담원을 위한 브라우저 자동화 CLI",
       "language": "Rust",
-      "stars": 47241,
-      "forks": 3237,
+      "stars": 47511,
+      "forks": 3255,
       "stars_period": 812,
       "stars_today": 812
     },
@@ -71,8 +71,8 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_ko": "완전히 사용자 정의할 수 있고 에이전트가 준비된 오픈 소스 디자인 시스템",
       "language": "TypeScript",
-      "stars": 15061,
-      "forks": 1227,
+      "stars": 16407,
+      "forks": 1302,
       "stars_period": 863,
       "stars_today": 863
     },
@@ -83,8 +83,8 @@
       "description": "Public repository for Agent Skills",
       "description_ko": "에이전트 스킬 공개 저장소.",
       "language": "Python",
-      "stars": 189145,
-      "forks": 22295,
+      "stars": 189515,
+      "forks": 22338,
       "stars_period": 793,
       "stars_today": 793
     },
@@ -95,8 +95,8 @@
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "description_ko": "접촉이 있는 다중 조인트 역학. 범용 물리 시뮬레이터.",
       "language": "C++",
-      "stars": 16154,
-      "forks": 1939,
+      "stars": 16346,
+      "forks": 1950,
       "stars_period": 26,
       "stars_today": 26
     },
@@ -107,8 +107,8 @@
       "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "description_ko": "한 달 동안의 단일 세션 (수십억 개의 토큰), 작은 컨텍스트 창 (10만 개의 컨텍스트로 충분) 및 토큰 절감 (5배 적은 토큰) 을 위한 컨텍스트 압축 플러그인입니다.上下文压缩插件月级长会话会话 ， 兼顾小窗口（ 100K上下文足矣 ）省 토큰 （省 5개의倍 토큰 ）. 수십억 개의 컨텍스트만 있으면 됩니다.",
       "language": "TypeScript",
-      "stars": 4858,
-      "forks": 389,
+      "stars": 5069,
+      "forks": 403,
       "stars_period": 460,
       "stars_today": 460
     }
