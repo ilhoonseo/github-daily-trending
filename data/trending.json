@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "date": "2026-11-08",
-  "fetched_at": "2026-11-08T10:11:58+09:00",
+  "fetched_at": "2026-11-08T12:55:58+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
@@ -11,8 +11,8 @@
       "description": "Browser automation CLI for AI agents",
       "description_ko": "AI 상담원을 위한 브라우저 자동화 CLI",
       "language": "Rust",
-      "stars": 46835,
-      "forks": 3211,
+      "stars": 46925,
+      "forks": 3217,
       "stars_period": 190,
       "stars_today": 190
     },
@@ -23,8 +23,8 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_ko": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
       "language": "JavaScript",
-      "stars": 65746,
-      "forks": 4269,
+      "stars": 65905,
+      "forks": 4283,
       "stars_period": 2085,
       "stars_today": 2085
     },
@@ -35,8 +35,8 @@
       "description": "Agent Skills for Google products and technologies",
       "description_ko": "Google 제품 및 기술에 대한 상담원 기술",
       "language": "Python",
-      "stars": 23409,
-      "forks": 1956,
+      "stars": 23473,
+      "forks": 1961,
       "stars_period": 443,
       "stars_today": 443
     },
@@ -47,8 +47,8 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "description_ko": "실제 엔지니어를 위한 기술. 내 .agents 디렉토리에서 바로.",
       "language": "Shell",
-      "stars": 317730,
-      "forks": 26581,
+      "stars": 317831,
+      "forks": 26589,
       "stars_period": 1100,
       "stars_today": 1100
     },
@@ -59,8 +59,8 @@
       "description": "Public repository for Agent Skills",
       "description_ko": "에이전트 스킬 공개 저장소.",
       "language": "Python",
-      "stars": 188794,
-      "forks": 22253,
+      "stars": 188880,
+      "forks": 22261,
       "stars_period": 390,
       "stars_today": 390
     },
@@ -71,8 +71,8 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_ko": "완전히 사용자 정의할 수 있고 에이전트가 준비된 오픈 소스 디자인 시스템",
       "language": "TypeScript",
-      "stars": 14538,
-      "forks": 1189,
+      "stars": 14662,
+      "forks": 1199,
       "stars_period": 96,
       "stars_today": 96
     },
@@ -83,8 +83,8 @@
       "description": "The Prometheus monitoring system and time series database.",
       "description_ko": "프로메테우스 모니터링 시스템 및 시계열 데이터베이스.",
       "language": "Go",
-      "stars": 67449,
-      "forks": 11004,
+      "stars": 67472,
+      "forks": 11008,
       "stars_period": 322,
       "stars_today": 322
     },
@@ -95,8 +95,8 @@
       "description": "Hunt down social media accounts by username across social networks",
       "description_ko": "소셜 네트워크에서 사용자 이름으로 소셜 미디어 계정 찾기",
       "language": "Python",
-      "stars": 100496,
-      "forks": 11870,
+      "stars": 100790,
+      "forks": 11910,
       "stars_period": 1766,
       "stars_today": 1766
     },
@@ -107,8 +107,8 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "description_ko": "가상머신을 갖춘 오픈소스 Grok Bot 대안.",
       "language": "TypeScript",
-      "stars": 16994,
-      "forks": 2408,
+      "stars": 17159,
+      "forks": 2423,
       "stars_period": 1955,
       "stars_today": 1955
     },
@@ -119,8 +119,8 @@
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "description_ko": "Rust로 작성된 매우 빠른 Python linter 및 코드 포맷터입니다.",
       "language": "Rust",
-      "stars": 50979,
-      "forks": 2631,
+      "stars": 51008,
+      "forks": 2633,
       "stars_period": 350,
       "stars_today": 350
     }
