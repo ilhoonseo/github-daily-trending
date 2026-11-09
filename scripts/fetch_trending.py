@@ -25,12 +25,18 @@
   If a period's top 10 changed since the last run, that date's file
   is updated; the workflow only commits when data actually changed,
   so unchanged runs create no commits.
+- Transient fetch errors (HTTP 429/5xx, network errors, timeouts) are
+  retried with backoff (see FETCH_ATTEMPTS / RETRY_DELAYS). If every
+  attempt fails the exception is re-raised and the run fails.
 - Each repo entry carries "stars_period" (stars gained in the period).
   Daily entries also carry "stars_today" (= stars_period) so older
   consumers of data/trending.json keep working.
 """
+import http.client
 import json
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone, timedelta
@@ -51,6 +57,16 @@ PERIODS = {
     "weekly": ("weekly", "stars this week"),
     "monthly": ("monthly", "stars this month"),
 }
+
+# Retry policy for fetching the trending page. GitHub's trending page
+# sometimes returns transient errors (e.g. HTTP 504 on 2026-11-09, runs
+# #9 and #10), which used to fail the whole workflow on the first try.
+# FETCH_ATTEMPTS counts the first try; RETRY_DELAYS[i] is the wait in
+# seconds before retry i+1 (exponential-ish backoff).
+FETCH_ATTEMPTS = 3
+RETRY_DELAYS = (5, 15)
+MAX_RETRY_AFTER = 60  # cap for a server-sent Retry-After header
+RETRYABLE_STATUS = {429} | set(range(500, 600))
 
 _translation_cache = {}
 
@@ -115,12 +131,61 @@ def translate_ko(text):
     return result
 
 
+def _retry_delay(attempt, err):
+    """Seconds to wait after failed attempt number `attempt` (1-based)."""
+    delay = RETRY_DELAYS[min(attempt - 1, len(RETRY_DELAYS) - 1)]
+    if isinstance(err, urllib.error.HTTPError) and err.headers is not None:
+        retry_after = err.headers.get("Retry-After", "")
+        if retry_after.strip().isdigit():
+            delay = max(delay, min(int(retry_after), MAX_RETRY_AFTER))
+    return delay
+
+
+def fetch_html(url, label="", timeout=30):
+    """GET `url` and return the body, retrying transient failures.
+
+    Retries HTTP 429 / 5xx, URLError (DNS, connection refused, ...),
+    timeouts and dropped connections. Other HTTP errors (e.g. 404) are
+    raised immediately. After FETCH_ATTEMPTS failed attempts the last
+    exception is re-raised so the workflow still fails loudly instead
+    of saving an empty list.
+    """
+    prefix = f"[{label}] " if label else ""
+    for attempt in range(1, FETCH_ATTEMPTS + 1):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code not in RETRYABLE_STATUS:
+                raise
+            err, reason = e, str(e.code)
+        except (urllib.error.URLError, TimeoutError, ConnectionError,
+                http.client.HTTPException) as e:
+            # HTTPError is a URLError subclass but is handled above.
+            # TimeoutError also covers socket.timeout on Python 3.10+.
+            err = e
+            reason = getattr(e, "reason", None) or e.__class__.__name__
+        if attempt >= FETCH_ATTEMPTS:
+            print(
+                f"{prefix}Fetch failed ({reason}), giving up after "
+                f"{attempt}/{FETCH_ATTEMPTS} attempts: {url}",
+                flush=True,
+            )
+            raise err
+        delay = _retry_delay(attempt, err)
+        print(
+            f"{prefix}Fetch failed ({reason}), retrying in {delay}s "
+            f"(attempt {attempt}/{FETCH_ATTEMPTS})",
+            flush=True,
+        )
+        time.sleep(delay)
+
+
 def fetch_trending(period):
     since, stars_label = PERIODS[period]
     url = f"https://github.com/trending?since={since}"
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        html = resp.read().decode("utf-8", "replace")
+    html = fetch_html(url, label=period, timeout=30)
 
     articles = re.findall(r'<article class="Box-row".*?</article>', html, re.S)
     repos = []
