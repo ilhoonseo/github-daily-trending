@@ -1,0 +1,118 @@
+{
+  "period": "weekly",
+  "date": "2026-11-11",
+  "fetched_at": "2026-11-11T07:44:32+09:00",
+  "source": "https://github.com/trending?since=weekly",
+  "repos": [
+    {
+      "rank": 1,
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "description_ko": "Auto Ontology는 데이터 위에 의미 기반의 그래프 기반 추론 레이어를 구축하기 위한 파이썬 프레임워크입니다. 이는 LLM 및 에이전트 워크플로우에 대한 결정적 쿼리 생성, 더 나은 컨텍스트 검색 및 더 설명 가능한 AI를 가능하게 합니다.",
+      "language": "Python",
+      "stars": 11424,
+      "forks": 940,
+      "stars_period": 10159
+    },
+    {
+      "rank": 2,
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "description_ko": "AI 에이전트를 위한 컴퓨터 사용 CLI",
+      "language": "Rust",
+      "stars": 21328,
+      "forks": 1590,
+      "stars_period": 12120
+    },
+    {
+      "rank": 3,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "description_ko": "에이전트 스킬 공개 저장소.",
+      "language": "Python",
+      "stars": 192246,
+      "forks": 22637,
+      "stars_period": 3796
+    },
+    {
+      "rank": 4,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "description_ko": "가상머신을 갖춘 오픈소스 Grok Bot 대안.",
+      "language": "TypeScript",
+      "stars": 20597,
+      "forks": 2853,
+      "stars_period": 8325
+    },
+    {
+      "rank": 5,
+      "full_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "description_ko": "Git worktree 관리를 위한 CLI. 병렬 AI 에이전트 워크플로에 맞춰 설계됐다.",
+      "language": "Rust",
+      "stars": 12386,
+      "forks": 487,
+      "stars_period": 2395
+    },
+    {
+      "rank": 6,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "description_ko": "AI 상담원을 위한 브라우저 자동화 CLI",
+      "language": "Rust",
+      "stars": 49155,
+      "forks": 3446,
+      "stars_period": 2994
+    },
+    {
+      "rank": 7,
+      "full_name": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "description_ko": "Claude Code를 온전한 게임 개발 스튜디오로 바꿔준다. AI 에이전트 49개, 워크플로 스킬 72개, 실제 스튜디오 조직도를 본뜬 협업 시스템이 들어 있다.",
+      "language": "Shell",
+      "stars": 38027,
+      "forks": 4968,
+      "stars_period": 4324
+    },
+    {
+      "rank": 8,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "description_ko": "실제 엔지니어를 위한 기술. 내 .agents 디렉토리에서 바로.",
+      "language": "Shell",
+      "stars": 320844,
+      "forks": 26905,
+      "stars_period": 9800
+    },
+    {
+      "rank": 9,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "description_ko": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
+      "language": "JavaScript",
+      "stars": 69219,
+      "forks": 4576,
+      "stars_period": 10695
+    },
+    {
+      "rank": 10,
+      "full_name": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "description_ko": "🚀 PR Agent: The Original Open-Source PR Reviewer. 이 프로젝트는 Qodo 무료 등급이 아닙니다.",
+      "language": "Python",
+      "stars": 15865,
+      "forks": 2169,
+      "stars_period": 1822
+    }
+  ]
+}
