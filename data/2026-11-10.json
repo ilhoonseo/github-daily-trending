@@ -1,0 +1,128 @@
+{
+  "period": "daily",
+  "date": "2026-11-10",
+  "fetched_at": "2026-11-10T10:04:41+09:00",
+  "source": "https://github.com/trending?since=daily",
+  "repos": [
+    {
+      "rank": 1,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "description_ko": "에이전트 스킬 공개 저장소.",
+      "language": "Python",
+      "stars": 190988,
+      "forks": 22442,
+      "stars_period": 1038,
+      "stars_today": 1038
+    },
+    {
+      "rank": 2,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "description_ko": "완전히 사용자 정의할 수 있고 에이전트가 준비된 오픈 소스 디자인 시스템",
+      "language": "TypeScript",
+      "stars": 20080,
+      "forks": 1527,
+      "stars_period": 3278,
+      "stars_today": 3278
+    },
+    {
+      "rank": 3,
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "description_ko": "소셜 네트워크에서 사용자 이름으로 소셜 미디어 계정 찾기",
+      "language": "Python",
+      "stars": 107048,
+      "forks": 12382,
+      "stars_period": 4267,
+      "stars_today": 4267
+    },
+    {
+      "rank": 4,
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "description_ko": "접촉이 있는 다중 조인트 역학. 범용 물리 시뮬레이터.",
+      "language": "C++",
+      "stars": 16911,
+      "forks": 1991,
+      "stars_period": 574,
+      "stars_today": 574
+    },
+    {
+      "rank": 5,
+      "full_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "description_ko": "개발자가 Claude API를 사용하여 배포 가능한 애플리케이션을 신속하게 구축할 수 있도록 설계된 프로젝트 모음",
+      "language": "Python",
+      "stars": 20020,
+      "forks": 3311,
+      "stars_period": 551,
+      "stars_today": 551
+    },
+    {
+      "rank": 6,
+      "full_name": "garrytan/gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "description_ko": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "stars": 32156,
+      "forks": 4765,
+      "stars_period": 216,
+      "stars_today": 216
+    },
+    {
+      "rank": 7,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "description_ko": "AI 상담원을 위한 브라우저 자동화 CLI",
+      "language": "Rust",
+      "stars": 48471,
+      "forks": 3302,
+      "stars_period": 916,
+      "stars_today": 916
+    },
+    {
+      "rank": 8,
+      "full_name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "description_ko": "π RuView는 상품 WiFi 신호를 실시간 공간 인텔리전스, 활력 징후 모니터링 및 존재 감지로 전환합니다. 이 모든 것이 단일 픽셀의 비디오 없이 가능합니다.",
+      "language": "Rust",
+      "stars": 103462,
+      "forks": 13404,
+      "stars_period": 172,
+      "stars_today": 172
+    },
+    {
+      "rank": 9,
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "description_ko": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送 ， 다중支持零成本定时运行。 소스 시장 데이터 ， 실시간 뉴스 ， 의사 결정 대시보드 ， 자동 알림 및 비용 부담 없는 예약 실행을 갖춘 LLM 기반 다중 시장 주식 분석 시스템.",
+      "language": "Python",
+      "stars": 68858,
+      "forks": 56388,
+      "stars_period": 506,
+      "stars_today": 506
+    },
+    {
+      "rank": 10,
+      "full_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "description_ko": "Claude, ChatGPT 및 기타 AI 어시스턴트를 사용하여 홈 어시스턴트를 구성하고 자동화합니다.",
+      "language": "Python",
+      "stars": 5977,
+      "forks": 293,
+      "stars_period": 31,
+      "stars_today": 31
+    }
+  ]
+}
