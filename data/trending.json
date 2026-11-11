@@ -1,7 +1,7 @@
 {
   "period": "daily",
-  "date": "2026-11-11",
-  "fetched_at": "2026-11-11T22:26:02+09:00",
+  "date": "2026-11-12",
+  "fetched_at": "2026-11-12T08:56:56+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
@@ -9,10 +9,10 @@
       "full_name": "meta/astryx",
       "url": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
-      "description_ko": "완전히 사용자 정의할 수 있고 에이전트가 준비된 오픈 소스 디자인 시스템",
+      "description_ko": "완전히 맞춤 설정이 가능하고 상담원 사용에 최적화된 오픈 소스 디자인 시스템",
       "language": "TypeScript",
-      "stars": 24252,
-      "forks": 1892,
+      "stars": 24919,
+      "forks": 1948,
       "stars_period": 2842,
       "stars_today": 2842
     },
@@ -21,12 +21,12 @@
       "full_name": "ZhuLinsen/daily_stock_analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "description_ko": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送 ， 다중支持零成本定时运行。 소스 시장 데이터 ， 실시간 뉴스 ， 의사 결정 대시보드 ， 자동 알림 및 비용 부담 없는 예약 실행을 갖춘 LLM 기반 다중 시장 주식 분석 시스템.",
+      "description_ko": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 다중 소스 시장 데이터, 실시간 뉴스, 의사 결정 대시보드, 자동 알림 및 비용 없는 예약 실행을 갖춘 LLM 기반 다중 시장 주식 분석 시스템.",
       "language": "Python",
-      "stars": 69819,
-      "forks": 56762,
-      "stars_period": 960,
-      "stars_today": 960
+      "stars": 70192,
+      "forks": 56833,
+      "stars_period": 429,
+      "stars_today": 429
     },
     {
       "rank": 3,
@@ -35,8 +35,8 @@
       "description": "",
       "description_ko": "",
       "language": "TypeScript",
-      "stars": 1453,
-      "forks": 129,
+      "stars": 1724,
+      "forks": 138,
       "stars_period": 133,
       "stars_today": 133
     },
@@ -45,10 +45,10 @@
       "full_name": "shadcn/improve",
       "url": "https://github.com/shadcn/improve",
       "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "description_ko": "가장 유능한 모델을 사용하여 코드베이스를 감사하고 더 저렴한 모델이 실행될 수 있도록 계획을 작성하십시오.",
+      "description_ko": "가장 성능이 뛰어난 모델을 사용하여 코드베이스를 감사하고 더 저렴한 모델이 실행할 계획을 작성하세요.",
       "language": null,
-      "stars": 10465,
-      "forks": 427,
+      "stars": 10844,
+      "forks": 442,
       "stars_period": 333,
       "stars_today": 333
     },
@@ -57,10 +57,10 @@
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
-      "description_ko": "AI 코딩 에이전트를 위한 생산 등급 엔지니어링 기술.",
+      "description_ko": "AI 코딩 에이전트를 위한 프로덕션급 엔지니어링 기술.",
       "language": "JavaScript",
-      "stars": 115599,
-      "forks": 12122,
+      "stars": 115916,
+      "forks": 12158,
       "stars_period": 788,
       "stars_today": 788
     },
@@ -69,10 +69,10 @@
       "full_name": "vercel-labs/agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
-      "description_ko": "AI 상담원을 위한 브라우저 자동화 CLI",
+      "description_ko": "AI 에이전트를 위한 브라우저 자동화 CLI",
       "language": "Rust",
-      "stars": 49617,
-      "forks": 3472,
+      "stars": 49845,
+      "forks": 3487,
       "stars_period": 712,
       "stars_today": 712
     },
@@ -81,10 +81,10 @@
       "full_name": "we-promise/sure",
       "url": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
-      "description_ko": "모두를 위한 개인 금융 앱 (누구나 이용 가능)",
+      "description_ko": "모두를 위한(모두가 만든) 개인 금융 앱",
       "language": "Ruby",
-      "stars": 12546,
-      "forks": 931,
+      "stars": 12933,
+      "forks": 956,
       "stars_period": 1079,
       "stars_today": 1079
     },
@@ -93,10 +93,10 @@
       "full_name": "homeassistant-ai/ha-mcp",
       "url": "https://github.com/homeassistant-ai/ha-mcp",
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "description_ko": "Claude, ChatGPT 및 기타 AI 어시스턴트를 사용하여 홈 어시스턴트를 구성하고 자동화합니다.",
+      "description_ko": "Claude, ChatGPT 및 기타 AI 어시스턴트를 사용하여 Home Assistant를 구성하고 자동화하세요.",
       "language": "Python",
-      "stars": 7002,
-      "forks": 444,
+      "stars": 7343,
+      "forks": 454,
       "stars_period": 640,
       "stars_today": 640
     },
@@ -105,10 +105,10 @@
       "full_name": "openai/codex-security",
       "url": "https://github.com/openai/codex-security",
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
-      "description_ko": "보안 취약점을 찾고, 검증하고, 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK. npm: https://www.npmjs.com/package/ @ openai/codex-security",
+      "description_ko": "보안 취약점을 찾고, 검증하고, 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
-      "stars": 11433,
-      "forks": 916,
+      "stars": 11695,
+      "forks": 936,
       "stars_period": 20,
       "stars_today": 20
     },
@@ -119,10 +119,10 @@
       "description": "All Algorithms implemented in Java",
       "description_ko": "Java로 구현된 모든 알고리즘",
       "language": "Java",
-      "stars": 66879,
-      "forks": 21491,
-      "stars_period": 39,
-      "stars_today": 39
+      "stars": 67006,
+      "forks": 21505,
+      "stars_period": 108,
+      "stars_today": 108
     }
   ]
 }
