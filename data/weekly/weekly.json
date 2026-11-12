@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "date": "2026-11-12",
-  "fetched_at": "2026-11-12T08:56:56+09:00",
+  "fetched_at": "2026-11-12T14:55:45+09:00",
   "source": "https://github.com/trending?since=weekly",
   "repos": [
     {
@@ -11,9 +11,9 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "description_ko": "Auto Ontology는 데이터 위에 시맨틱 기반의 그래프 기반 추론 계층을 구축하기 위한 Python 프레임워크입니다. 이를 통해 결정론적 쿼리 생성, 더 나은 컨텍스트 검색, LLM 및 에이전트 워크플로를 위한 더 설명 가능한 AI가 가능해집니다.",
       "language": "Python",
-      "stars": 11826,
-      "forks": 970,
-      "stars_period": 9621
+      "stars": 11955,
+      "forks": 980,
+      "stars_period": 7947
     },
     {
       "rank": 2,
@@ -22,9 +22,9 @@
       "description": "Public repository for Agent Skills",
       "description_ko": "에이전트 스킬 공개 저장소.",
       "language": "Python",
-      "stars": 193109,
-      "forks": 22729,
-      "stars_period": 5014
+      "stars": 193277,
+      "forks": 22744,
+      "stars_period": 5738
     },
     {
       "rank": 3,
@@ -33,9 +33,9 @@
       "description": "Computer use CLI for AI agents",
       "description_ko": "AI 에이전트를 위한 컴퓨터 사용 CLI",
       "language": "Rust",
-      "stars": 22050,
-      "forks": 1641,
-      "stars_period": 9502
+      "stars": 22265,
+      "forks": 1655,
+      "stars_period": 7772
     },
     {
       "rank": 4,
@@ -44,9 +44,9 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "description_ko": "가상머신을 갖춘 오픈소스 Grok Bot 대안.",
       "language": "TypeScript",
-      "stars": 21218,
-      "forks": 2962,
-      "stars_period": 8951
+      "stars": 21367,
+      "forks": 2983,
+      "stars_period": 9257
     },
     {
       "rank": 5,
@@ -55,9 +55,9 @@
       "description": "Browser automation CLI for AI agents",
       "description_ko": "AI 에이전트를 위한 브라우저 자동화 CLI",
       "language": "Rust",
-      "stars": 49845,
-      "forks": 3487,
-      "stars_period": 3606
+      "stars": 50019,
+      "forks": 3493,
+      "stars_period": 4183
     },
     {
       "rank": 6,
@@ -66,9 +66,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_ko": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
       "language": "JavaScript",
-      "stars": 70350,
-      "forks": 4666,
-      "stars_period": 10967
+      "stars": 70513,
+      "forks": 4674,
+      "stars_period": 11507
     },
     {
       "rank": 7,
@@ -77,9 +77,9 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "description_ko": "진짜 엔지니어를 위한 스킬. 제 .agents 디렉터리에서 바로 가져왔습니다.",
       "language": "Shell",
-      "stars": 322004,
-      "forks": 26999,
-      "stars_period": 9872
+      "stars": 322217,
+      "forks": 27023,
+      "stars_period": 9575
     },
     {
       "rank": 8,
@@ -88,9 +88,9 @@
       "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "description_ko": "🕷️ 단일 요청부터 대규모 크롤링까지 모든 것을 처리하는 최고의 웹 스크래핑 프레임워크! 망설이지 말고 여기(https://discord.gg/EMgGbDceNQ)에 가입하고 여기(https://x.com/Scrapling_dev)를 팔로우하여 매일 팁과 요령을 확인하세요.",
       "language": "Python",
-      "stars": 101632,
-      "forks": 10589,
-      "stars_period": 7291
+      "stars": 101764,
+      "forks": 10602,
+      "stars_period": 5814
     },
     {
       "rank": 9,
@@ -99,9 +99,9 @@
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "description_ko": "생각의 속도로 코딩하세요 – Zed는 Atom과 Tree-sitter의 개발자들이 만든 고성능 멀티플레이어 코드 에디터입니다.",
       "language": "Rust",
-      "stars": 94709,
-      "forks": 11629,
-      "stars_period": 2262
+      "stars": 94745,
+      "forks": 11634,
+      "stars_period": 2310
     },
     {
       "rank": 10,
@@ -110,9 +110,9 @@
       "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
       "description_ko": "Claude Code를 온전한 게임 개발 스튜디오로 바꿔준다. AI 에이전트 49개, 워크플로 스킬 72개, 실제 스튜디오 조직도를 본뜬 협업 시스템이 들어 있다.",
       "language": "Shell",
-      "stars": 38459,
-      "forks": 5004,
-      "stars_period": 3730
+      "stars": 38562,
+      "forks": 5014,
+      "stars_period": 3150
     }
   ]
 }
