@@ -1,0 +1,128 @@
+{
+  "period": "daily",
+  "date": "2026-11-13",
+  "fetched_at": "2026-11-13T08:05:51+09:00",
+  "source": "https://github.com/trending?since=daily",
+  "repos": [
+    {
+      "rank": 1,
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "description_ko": "최신 웹 모범 사례를 반영하여 코딩 에이전트를 최신 상태로 유지하세요.",
+      "language": "TypeScript",
+      "stars": 2815,
+      "forks": 190,
+      "stars_period": 799,
+      "stars_today": 799
+    },
+    {
+      "rank": 2,
+      "full_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "description_ko": "보안 취약점을 찾고, 검증하고, 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "stars": 12371,
+      "forks": 976,
+      "stars_period": 663,
+      "stars_today": 663
+    },
+    {
+      "rank": 3,
+      "full_name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "description_ko": "Node Version Manager - 여러 개의 활성 node.js 버전을 관리하는 POSIX 호환 Bash 스크립트.",
+      "language": "Shell",
+      "stars": 95999,
+      "forks": 10757,
+      "stars_period": 107,
+      "stars_today": 107
+    },
+    {
+      "rank": 4,
+      "full_name": "pookjw/HermesEnabler",
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "description_ko": "모든 Apple Watch 기기에서 에르메스 워치 페이스 활성화",
+      "language": "Objective-C",
+      "stars": 1512,
+      "forks": 139,
+      "stars_period": 300,
+      "stars_today": 300
+    },
+    {
+      "rank": 5,
+      "full_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "description_ko": "모두를 위한(모두가 만든) 개인 금융 앱",
+      "language": "Ruby",
+      "stars": 13862,
+      "forks": 1031,
+      "stars_period": 974,
+      "stars_today": 974
+    },
+    {
+      "rank": 6,
+      "full_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "description_ko": "터미널에 상주하는 오픈 소스 AI 코딩 에이전트입니다.",
+      "language": "TypeScript",
+      "stars": 29774,
+      "forks": 3392,
+      "stars_period": 151,
+      "stars_today": 151
+    },
+    {
+      "rank": 7,
+      "full_name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "description_ko": "Metal, CUDA 및 Vulkan용 LLM 추론 엔진.",
+      "language": "Zig",
+      "stars": 1922,
+      "forks": 391,
+      "stars_period": 94,
+      "stars_today": 94
+    },
+    {
+      "rank": 8,
+      "full_name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "description_ko": "Node.js JavaScript 런타임 ✨🐢🚀✨",
+      "language": "JavaScript",
+      "stars": 123586,
+      "forks": 38053,
+      "stars_period": 133,
+      "stars_today": 133
+    },
+    {
+      "rank": 9,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "description_ko": "AI 코딩 에이전트를 위한 프로덕션급 엔지니어링 기술.",
+      "language": "JavaScript",
+      "stars": 116633,
+      "forks": 12205,
+      "stars_period": 812,
+      "stars_today": 812
+    },
+    {
+      "rank": 10,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "description_ko": "완전히 맞춤 설정이 가능하고 상담원 사용에 최적화된 오픈 소스 디자인 시스템",
+      "language": "TypeScript",
+      "stars": 26450,
+      "forks": 2049,
+      "stars_period": 1789,
+      "stars_today": 1789
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "period": "weekly",
+  "date": "2026-11-13",
+  "fetched_at": "2026-11-13T08:05:51+09:00",
+  "source": "https://github.com/trending?since=weekly",
+  "repos": [
+    {
+      "rank": 1,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "description_ko": "에이전트 스킬 공개 저장소.",
+      "language": "Python",
+      "stars": 193679,
+      "forks": 22785,
+      "stars_period": 5738
+    },
+    {
+      "rank": 2,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "description_ko": "가상머신을 갖춘 오픈소스 Grok Bot 대안.",
+      "language": "TypeScript",
+      "stars": 21695,
+      "forks": 3018,
+      "stars_period": 9257
+    },
+    {
+      "rank": 3,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "description_ko": "AI 에이전트를 위한 브라우저 자동화 CLI",
+      "language": "Rust",
+      "stars": 50314,
+      "forks": 3502,
+      "stars_period": 4183
+    },
+    {
+      "rank": 4,
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "description_ko": "Auto Ontology는 데이터 위에 시맨틱 그래프 기반 추론 계층을 구축하기 위한 Python 프레임워크입니다. 이를 통해 결정론적 쿼리 생성, 더 나은 컨텍스트 검색, LLM 및 에이전트 워크플로를 위한 더 설명 가능한 AI가 가능해집니다.",
+      "language": "Python",
+      "stars": 12219,
+      "forks": 1007,
+      "stars_period": 7947
+    },
+    {
+      "rank": 5,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "description_ko": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
+      "language": "JavaScript",
+      "stars": 71168,
+      "forks": 4730,
+      "stars_period": 11507
+    },
+    {
+      "rank": 6,
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "description_ko": "AI 에이전트를 위한 컴퓨터 사용 CLI",
+      "language": "Rust",
+      "stars": 22685,
+      "forks": 1681,
+      "stars_period": 7772
+    },
+    {
+      "rank": 7,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "description_ko": "진짜 엔지니어를 위한 스킬. 제 .agents 디렉터리에서 바로 가져왔습니다.",
+      "language": "Shell",
+      "stars": 322978,
+      "forks": 27089,
+      "stars_period": 9575
+    },
+    {
+      "rank": 8,
+      "full_name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "description_ko": "생각의 속도로 코딩하세요 – Zed는 Atom과 Tree-sitter의 개발자들이 만든 고성능 멀티플레이어 코드 에디터입니다.",
+      "language": "Rust",
+      "stars": 94837,
+      "forks": 11665,
+      "stars_period": 2310
+    },
+    {
+      "rank": 9,
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "description_ko": "접촉이 있는 다중 조인트 역학. 범용 물리 시뮬레이터.",
+      "language": "C++",
+      "stars": 17759,
+      "forks": 2180,
+      "stars_period": 1535
+    },
+    {
+      "rank": 10,
+      "full_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "description_ko": "Google 제품 및 기술에 대한 상담원 스킬",
+      "language": "Python",
+      "stars": 24054,
+      "forks": 2004,
+      "stars_period": 2013
+    }
+  ]
+}

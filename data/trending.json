@@ -1,18 +1,18 @@
 {
   "period": "daily",
-  "date": "2026-11-12",
-  "fetched_at": "2026-11-12T23:33:40+09:00",
+  "date": "2026-11-13",
+  "fetched_at": "2026-11-13T08:05:51+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
       "rank": 1,
       "full_name": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "description": "",
-      "description_ko": "",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "description_ko": "최신 웹 모범 사례를 반영하여 코딩 에이전트를 최신 상태로 유지하세요.",
       "language": "TypeScript",
-      "stars": 2363,
-      "forks": 171,
+      "stars": 2815,
+      "forks": 190,
       "stars_period": 799,
       "stars_today": 799
     },
@@ -23,8 +23,8 @@
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "description_ko": "보안 취약점을 찾고, 검증하고, 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
-      "stars": 12142,
-      "forks": 963,
+      "stars": 12371,
+      "forks": 976,
       "stars_period": 663,
       "stars_today": 663
     },
@@ -33,24 +33,24 @@
       "full_name": "nvm-sh/nvm",
       "url": "https://github.com/nvm-sh/nvm",
       "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-      "description_ko": "Node Version Manager - 여러 개의 활성 node.js 버전을 관리하는 POSIX 호환 bash 스크립트.",
+      "description_ko": "Node Version Manager - 여러 개의 활성 node.js 버전을 관리하는 POSIX 호환 Bash 스크립트.",
       "language": "Shell",
-      "stars": 95947,
-      "forks": 10755,
-      "stars_period": 79,
-      "stars_today": 79
+      "stars": 95999,
+      "forks": 10757,
+      "stars_period": 107,
+      "stars_today": 107
     },
     {
       "rank": 4,
       "full_name": "pookjw/HermesEnabler",
       "url": "https://github.com/pookjw/HermesEnabler",
       "description": "Enable Hermès Watch Faces on any Apple Watch devices",
-      "description_ko": "모든 Apple Watch 기기에서 Hermès 워치 페이스 활성화",
+      "description_ko": "모든 Apple Watch 기기에서 에르메스 워치 페이스 활성화",
       "language": "Objective-C",
-      "stars": 1396,
-      "forks": 131,
-      "stars_period": 390,
-      "stars_today": 390
+      "stars": 1512,
+      "forks": 139,
+      "stars_period": 300,
+      "stars_today": 300
     },
     {
       "rank": 5,
@@ -59,8 +59,8 @@
       "description": "The personal finance app for everyone (by everyone)",
       "description_ko": "모두를 위한(모두가 만든) 개인 금융 앱",
       "language": "Ruby",
-      "stars": 13576,
-      "forks": 1004,
+      "stars": 13862,
+      "forks": 1031,
       "stars_period": 974,
       "stars_today": 974
     },
@@ -71,8 +71,8 @@
       "description": "An open-source AI coding agent that lives in your terminal.",
       "description_ko": "터미널에 상주하는 오픈 소스 AI 코딩 에이전트입니다.",
       "language": "TypeScript",
-      "stars": 29607,
-      "forks": 3387,
+      "stars": 29774,
+      "forks": 3392,
       "stars_period": 151,
       "stars_today": 151
     },
@@ -83,10 +83,10 @@
       "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "description_ko": "Metal, CUDA 및 Vulkan용 LLM 추론 엔진.",
       "language": "Zig",
-      "stars": 1857,
-      "forks": 390,
-      "stars_period": 58,
-      "stars_today": 58
+      "stars": 1922,
+      "forks": 391,
+      "stars_period": 94,
+      "stars_today": 94
     },
     {
       "rank": 8,
@@ -95,7 +95,7 @@
       "description": "Node.js JavaScript runtime ✨🐢🚀✨",
       "description_ko": "Node.js JavaScript 런타임 ✨🐢🚀✨",
       "language": "JavaScript",
-      "stars": 123522,
+      "stars": 123586,
       "forks": 38053,
       "stars_period": 133,
       "stars_today": 133
@@ -107,8 +107,8 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "description_ko": "AI 코딩 에이전트를 위한 프로덕션급 엔지니어링 기술.",
       "language": "JavaScript",
-      "stars": 116403,
-      "forks": 12193,
+      "stars": 116633,
+      "forks": 12205,
       "stars_period": 812,
       "stars_today": 812
     },
@@ -119,8 +119,8 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_ko": "완전히 맞춤 설정이 가능하고 상담원 사용에 최적화된 오픈 소스 디자인 시스템",
       "language": "TypeScript",
-      "stars": 26073,
-      "forks": 2024,
+      "stars": 26450,
+      "forks": 2049,
       "stars_period": 1789,
       "stars_today": 1789
     }
