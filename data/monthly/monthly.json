@@ -1,7 +1,7 @@
 {
   "period": "monthly",
-  "date": "2026-11-13",
-  "fetched_at": "2026-11-13T22:47:29+09:00",
+  "date": "2026-11-14",
+  "fetched_at": "2026-11-14T08:08:54+09:00",
   "source": "https://github.com/trending?since=monthly",
   "repos": [
     {
@@ -11,8 +11,8 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "description_ko": "Claude Code, Cursor, Codex용 안티 AI 티 나는 디자인 스킬. AI스러운 디자인을 잡아준다.",
       "language": "CSS",
-      "stars": 54301,
-      "forks": 2898,
+      "stars": 54506,
+      "forks": 2910,
       "stars_period": 24106
     },
     {
@@ -22,8 +22,8 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "description_ko": "에이전트로 무엇이든 리버스 엔지니어링한다. 앱 동작부터 네이티브 바이너리까지.",
       "language": "TypeScript",
-      "stars": 456656,
-      "forks": 112113,
+      "stars": 457553,
+      "forks": 112284,
       "stars_period": 325178
     },
     {
@@ -33,8 +33,8 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_ko": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
       "language": "JavaScript",
-      "stars": 71566,
-      "forks": 4769,
+      "stars": 71879,
+      "forks": 4788,
       "stars_period": 42602
     },
     {
@@ -44,8 +44,8 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "description_ko": "모든 에이전트를 위한 세션 간 영구 컨텍스트. 에이전트가 세션 중 한 일을 전부 기록해 AI로 압축하고, 다음 세션에 필요한 맥락을 다시 넣어준다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등에서 동작한다.",
       "language": "TypeScript",
-      "stars": 116728,
-      "forks": 10128,
+      "stars": 116836,
+      "forks": 10137,
       "stars_period": 17162
     },
     {
@@ -55,8 +55,8 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "description_ko": "GitHub에 등록된 설명이 없는 레포지토리.",
       "language": "TypeScript",
-      "stars": 59092,
-      "forks": 10753,
+      "stars": 59539,
+      "forks": 10794,
       "stars_period": 30926
     },
     {
@@ -66,8 +66,8 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "description_ko": "코딩 에이전트를 위한 디자인 어휘. 세련되고 과감하게 방향을 잡고, 비평과 감사로 검토해 AI 티 나는 결과물을 출하 전에 잡아낸다.",
       "language": "Rust",
-      "stars": 109317,
-      "forks": 6515,
+      "stars": 109563,
+      "forks": 6534,
       "stars_period": 29165
     },
     {
@@ -77,8 +77,8 @@
       "description": "Write HTML. Render video. Built for agents.",
       "description_ko": "HTML을 쓰고 영상을 렌더링한다. 에이전트를 위해 만들었다.",
       "language": "TypeScript",
-      "stars": 83716,
-      "forks": 7730,
+      "stars": 83922,
+      "forks": 7751,
       "stars_period": 22251
     },
     {
@@ -88,8 +88,8 @@
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "description_ko": "평생 개인 맞춤형 튜터, 딥튜터.",
       "language": "Python",
-      "stars": 58837,
-      "forks": 7144,
+      "stars": 58931,
+      "forks": 7152,
       "stars_period": 17692
     },
     {
@@ -99,8 +99,8 @@
       "description": "Public repository for Agent Skills",
       "description_ko": "에이전트 스킬 공개 저장소.",
       "language": "Python",
-      "stars": 193969,
-      "forks": 22812,
+      "stars": 194117,
+      "forks": 22830,
       "stars_period": 13440
     },
     {
@@ -110,8 +110,8 @@
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "description_ko": "Claude Code용 범용 SEO 스킬. 기술 SEO, E-E-A-T, 스키마, GEO/AEO, 에이전트 준비 상태(Lighthouse Agentic Browsing, WebMCP, llms.txt), 백링크, 로컬 SEO, 전자상거래, 국제 SEO, Google API, PDF/Excel 보고서를 다루는 26개의 하위 스킬 + 19개의 하위 에이전트. 실시간 SEO 데이터를 위한 9개의 선택적 확장 기능.",
       "language": "Python",
-      "stars": 28902,
-      "forks": 3689,
+      "stars": 29052,
+      "forks": 3701,
       "stars_period": 9819
     }
   ]
