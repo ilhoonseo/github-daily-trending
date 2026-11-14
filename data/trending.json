@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "date": "2026-11-14",
-  "fetched_at": "2026-11-14T13:36:15+09:00",
+  "fetched_at": "2026-11-14T21:51:25+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
@@ -11,10 +11,10 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "description_ko": "알리바바의 규모에서 안전하고 빠르고 효율적이며 실전 검증을 거쳤습니다. 하이브리드 아키텍처 코드 검토 도구: 결정적 파이프라인 + LLM 에이전트, 정확한 라인 수준의 주석, 내장된 다국어 규칙 세트(NPE, 스레드 안전성, XSS, SQL 주입), OpenAI 및 Anthropic 호환.",
       "language": "Go",
-      "stars": 50771,
-      "forks": 3777,
-      "stars_period": 215,
-      "stars_today": 215
+      "stars": 51082,
+      "forks": 3808,
+      "stars_period": 897,
+      "stars_today": 897
     },
     {
       "rank": 2,
@@ -23,10 +23,10 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "description_ko": "최신 웹 모범 사례를 반영하여 코딩 에이전트를 최신 상태로 유지하세요.",
       "language": "TypeScript",
-      "stars": 5007,
-      "forks": 274,
-      "stars_period": 1925,
-      "stars_today": 1925
+      "stars": 5360,
+      "forks": 292,
+      "stars_period": 1225,
+      "stars_today": 1225
     },
     {
       "rank": 3,
@@ -35,10 +35,10 @@
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "description_ko": "보안 취약점을 찾고, 검증하고, 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
-      "stars": 13215,
-      "forks": 1027,
-      "stars_period": 751,
-      "stars_today": 751
+      "stars": 13427,
+      "forks": 1041,
+      "stars_period": 599,
+      "stars_today": 599
     },
     {
       "rank": 4,
@@ -47,10 +47,10 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "description_ko": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 다중 소스 시장 데이터, 실시간 뉴스, 의사 결정 대시보드, 자동 알림 및 비용 없는 예약 실행 기능을 갖춘 LLM 기반 다중 시장 주식 분석 시스템.",
       "language": "Python",
-      "stars": 71771,
-      "forks": 57340,
-      "stars_period": 256,
-      "stars_today": 256
+      "stars": 72099,
+      "forks": 57422,
+      "stars_period": 867,
+      "stars_today": 867
     },
     {
       "rank": 5,
@@ -59,10 +59,10 @@
       "description": "The personal finance app for everyone (by everyone)",
       "description_ko": "모두를 위한(모두가 만든) 개인 금융 앱",
       "language": "Ruby",
-      "stars": 14836,
-      "forks": 1129,
-      "stars_period": 925,
-      "stars_today": 925
+      "stars": 15022,
+      "forks": 1143,
+      "stars_period": 659,
+      "stars_today": 659
     },
     {
       "rank": 6,
@@ -71,10 +71,10 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "description_ko": "업무 공간에서 최신 정보를 파악하고 에이전트를 관리하세요. 클릭 한 번으로 코드를 작성하고, 결정하고, 계획하고, 주석을 달고, 검토하고, 팀과 공유하고, 모든 피드백을 에이전트에게 전송할 수 있습니다.",
       "language": "TypeScript",
-      "stars": 10528,
-      "forks": 790,
-      "stars_period": 108,
-      "stars_today": 108
+      "stars": 10677,
+      "forks": 795,
+      "stars_period": 412,
+      "stars_today": 412
     },
     {
       "rank": 7,
@@ -83,10 +83,10 @@
       "description": "A fancy self-hosted monitoring tool",
       "description_ko": "멋진 자체 호스팅 모니터링 도구",
       "language": "JavaScript",
-      "stars": 93924,
-      "forks": 8724,
-      "stars_period": 71,
-      "stars_today": 71
+      "stars": 94062,
+      "forks": 8731,
+      "stars_period": 432,
+      "stars_today": 432
     },
     {
       "rank": 8,
@@ -95,10 +95,10 @@
       "description": "A hive mind communication platform",
       "description_ko": "집단 지성 커뮤니케이션 플랫폼",
       "language": "Rust",
-      "stars": 37331,
-      "forks": 4942,
-      "stars_period": 97,
-      "stars_today": 97
+      "stars": 37425,
+      "forks": 4945,
+      "stars_period": 275,
+      "stars_today": 275
     },
     {
       "rank": 9,
@@ -107,10 +107,10 @@
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "description_ko": "주식 투자자 및 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차트 작성, 경제 캘린더, 스크리너 및 거래 전략 개발.",
       "language": "Python",
-      "stars": 4257,
-      "forks": 876,
-      "stars_period": 69,
-      "stars_today": 69
+      "stars": 4438,
+      "forks": 885,
+      "stars_period": 556,
+      "stars_today": 556
     },
     {
       "rank": 10,
@@ -119,10 +119,10 @@
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "description_ko": "netcat과 유사하지만 Tailscale의 제어 영역 없이 Tailscale의 데이터 영역을 통해 작동합니다.",
       "language": "Go",
-      "stars": 9528,
-      "forks": 434,
-      "stars_period": 256,
-      "stars_today": 256
+      "stars": 9704,
+      "forks": 445,
+      "stars_period": 490,
+      "stars_today": 490
     }
   ]
 }
