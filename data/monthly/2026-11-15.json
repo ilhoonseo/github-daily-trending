@@ -1,0 +1,118 @@
+{
+  "period": "monthly",
+  "date": "2026-11-15",
+  "fetched_at": "2026-11-15T06:53:54+09:00",
+  "source": "https://github.com/trending?since=monthly",
+  "repos": [
+    {
+      "rank": 1,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "description_ko": "Claude Code, Cursor, Codex용 안티 AI 티 나는 디자인 스킬. AI스러운 디자인을 잡아준다.",
+      "language": "CSS",
+      "stars": 54968,
+      "forks": 2937,
+      "stars_period": 24631
+    },
+    {
+      "rank": 2,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "description_ko": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
+      "language": "JavaScript",
+      "stars": 72566,
+      "forks": 4850,
+      "stars_period": 42839
+    },
+    {
+      "rank": 3,
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "description_ko": "에이전트로 무엇이든 리버스 엔지니어링한다. 앱 동작부터 네이티브 바이너리까지.",
+      "language": "TypeScript",
+      "stars": 459684,
+      "forks": 112675,
+      "stars_period": 271084
+    },
+    {
+      "rank": 4,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+      "description_ko": "GitHub에 등록된 설명이 없는 레포지토리.",
+      "language": "TypeScript",
+      "stars": 60514,
+      "forks": 10901,
+      "stars_period": 32057
+    },
+    {
+      "rank": 5,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "description_ko": "모든 에이전트를 위한 세션 간 영구 컨텍스트. 에이전트가 세션 중 한 일을 전부 기록해 AI로 압축하고, 다음 세션에 필요한 맥락을 다시 넣어준다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등에서 동작한다.",
+      "language": "TypeScript",
+      "stars": 117089,
+      "forks": 10162,
+      "stars_period": 17120
+    },
+    {
+      "rank": 6,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "description_ko": "코딩 에이전트를 위한 디자인 어휘. 세련되고 과감하게 방향을 잡고, 비평과 감사로 검토해 AI 티 나는 결과물을 출하 전에 잡아낸다.",
+      "language": "Rust",
+      "stars": 110167,
+      "forks": 6568,
+      "stars_period": 29328
+    },
+    {
+      "rank": 7,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "description_ko": "에이전트 스킬 공개 저장소.",
+      "language": "Python",
+      "stars": 194578,
+      "forks": 22896,
+      "stars_period": 13734
+    },
+    {
+      "rank": 8,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "description_ko": "HTML을 쓰고 영상을 렌더링한다. 에이전트를 위해 만들었다.",
+      "language": "TypeScript",
+      "stars": 84315,
+      "forks": 7798,
+      "stars_period": 21924
+    },
+    {
+      "rank": 9,
+      "full_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "description_ko": "평생 개인 맞춤형 튜터, 딥튜터.",
+      "language": "Python",
+      "stars": 59206,
+      "forks": 7175,
+      "stars_period": 17913
+    },
+    {
+      "rank": 10,
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "description_ko": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "stars": 115597,
+      "forks": 7757,
+      "stars_period": 19948
+    }
+  ]
+}

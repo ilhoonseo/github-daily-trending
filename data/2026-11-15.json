@@ -1,0 +1,128 @@
+{
+  "period": "daily",
+  "date": "2026-11-15",
+  "fetched_at": "2026-11-15T06:53:54+09:00",
+  "source": "https://github.com/trending?since=daily",
+  "repos": [
+    {
+      "rank": 1,
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "description_ko": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars": 11048,
+      "forks": 919,
+      "stars_period": 412,
+      "stars_today": 412
+    },
+    {
+      "rank": 2,
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "description_ko": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "stars": 5904,
+      "forks": 395,
+      "stars_period": 1225,
+      "stars_today": 1225
+    },
+    {
+      "rank": 3,
+      "full_name": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "description_ko": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "language": "Python",
+      "stars": 4743,
+      "forks": 985,
+      "stars_period": 556,
+      "stars_today": 556
+    },
+    {
+      "rank": 4,
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "description_ko": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 56238,
+      "forks": 4752,
+      "stars_period": 673,
+      "stars_today": 673
+    },
+    {
+      "rank": 5,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "description_ko": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 51366,
+      "forks": 3903,
+      "stars_period": 897,
+      "stars_today": 897
+    },
+    {
+      "rank": 6,
+      "full_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "description_ko": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "stars": 30294,
+      "forks": 3497,
+      "stars_period": 116,
+      "stars_today": 116
+    },
+    {
+      "rank": 7,
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "description_ko": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "language": "TypeScript",
+      "stars": 24431,
+      "forks": 2223,
+      "stars_period": 495,
+      "stars_today": 495
+    },
+    {
+      "rank": 8,
+      "full_name": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "description_ko": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "language": "TypeScript",
+      "stars": 17320,
+      "forks": 1663,
+      "stars_period": 9,
+      "stars_today": 9
+    },
+    {
+      "rank": 9,
+      "full_name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "description_ko": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "language": "Zig",
+      "stars": 2146,
+      "forks": 494,
+      "stars_period": 53,
+      "stars_today": 53
+    },
+    {
+      "rank": 10,
+      "full_name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "description_ko": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "stars": 120015,
+      "forks": 7000,
+      "stars_period": 227,
+      "stars_today": 227
+    }
+  ]
+}
