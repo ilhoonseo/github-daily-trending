@@ -1,0 +1,128 @@
+{
+  "period": "daily",
+  "date": "2026-11-16",
+  "fetched_at": "2026-11-16T07:23:45+09:00",
+  "source": "https://github.com/trending?since=daily",
+  "repos": [
+    {
+      "rank": 1,
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "description_ko": "Univer Office SDK로 나만의 AI 오피스를 구축하세요. 사람과 AI 에이전트를 위한 편집, 계산, 협업, 파일 처리 기능을 제품에 도입하세요. 확장 가능한 오픈 소스 코어 기반으로 구축되었습니다.",
+      "language": "TypeScript",
+      "stars": 25550,
+      "forks": 2333,
+      "stars_period": 1041,
+      "stars_today": 1041
+    },
+    {
+      "rank": 2,
+      "full_name": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "description_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 에이전트를 프런트엔드 애플리케이션으로 가져옵니다.",
+      "language": "TypeScript",
+      "stars": 17797,
+      "forks": 1817,
+      "stars_period": 393,
+      "stars_today": 393
+    },
+    {
+      "rank": 3,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "description_ko": "Stitch MCP 서버와 함께 작동하도록 설계된 Agent Skills 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다.",
+      "language": "TypeScript",
+      "stars": 9249,
+      "forks": 1125,
+      "stars_period": 248,
+      "stars_today": 248
+    },
+    {
+      "rank": 4,
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "description_ko": "업무 공간에서 최신 정보를 파악하고 에이전트를 관리하세요. 클릭 한 번으로 코드를 작성하고, 결정하고, 계획하고, 주석을 달고, 검토하고, 팀과 공유하고, 모든 피드백을 에이전트에게 전송할 수 있습니다.",
+      "language": "TypeScript",
+      "stars": 11781,
+      "forks": 1080,
+      "stars_period": 860,
+      "stars_today": 860
+    },
+    {
+      "rank": 5,
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "description_ko": "코딩 에이전트를 위한 Chrome 개발자 도구",
+      "language": "TypeScript",
+      "stars": 56863,
+      "forks": 4804,
+      "stars_period": 718,
+      "stars_today": 718
+    },
+    {
+      "rank": 6,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "description_ko": "알리바바의 규모에서 안전하고 빠르고 효율적이며 실전 검증을 거쳤습니다. 하이브리드 아키텍처 코드 검토 도구: 결정적 파이프라인 + LLM 에이전트, 정확한 라인 수준의 주석, 내장형 다국어 규칙 세트(NPE, 스레드 안전성, XSS, SQL 주입), OpenAI 및 Anthropic 호환.",
+      "language": "Go",
+      "stars": 51994,
+      "forks": 4103,
+      "stars_period": 688,
+      "stars_today": 688
+    },
+    {
+      "rank": 7,
+      "full_name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "description_ko": "코딩 에이전트 제공을 위한 자체 호스팅 워크플로. 스크립트와 인간 승인 게이트를 사용하여 CodeBuddy, Codex 및 Claude Code를 조율합니다. 코딩 어시스턴트를 위한 로컬 워크플로가 포함되어 있습니다.",
+      "language": "Go",
+      "stars": 1425,
+      "forks": 263,
+      "stars_period": 484,
+      "stars_today": 484
+    },
+    {
+      "rank": 8,
+      "full_name": "ggml-org/ggml",
+      "url": "https://github.com/ggml-org/ggml",
+      "description": "Tensor library for machine learning",
+      "description_ko": "머신 러닝용 텐서 라이브러리",
+      "language": "C++",
+      "stars": 15884,
+      "forks": 2018,
+      "stars_period": 53,
+      "stars_today": 53
+    },
+    {
+      "rank": 9,
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 82개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
+      "language": "Python",
+      "stars": 6335,
+      "forks": 965,
+      "stars_period": 221,
+      "stars_today": 221
+    },
+    {
+      "rank": 10,
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "description_ko": "최신 웹 모범 사례를 반영하여 코딩 에이전트를 최신 상태로 유지하세요.",
+      "language": "TypeScript",
+      "stars": 7070,
+      "forks": 595,
+      "stars_period": 1220,
+      "stars_today": 1220
+    }
+  ]
+}
