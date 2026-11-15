@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "date": "2026-11-15",
-  "fetched_at": "2026-11-15T06:53:54+09:00",
+  "fetched_at": "2026-11-15T13:25:40+09:00",
   "source": "https://github.com/trending?since=weekly",
   "repos": [
     {
@@ -11,9 +11,9 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_ko": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 28082,
-      "forks": 2187,
-      "stars_period": 13375
+      "stars": 28250,
+      "forks": 2197,
+      "stars_period": 13660
     },
     {
       "rank": 2,
@@ -22,9 +22,9 @@
       "description": "Hunt down social media accounts by username across social networks",
       "description_ko": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars": 111731,
-      "forks": 12929,
-      "stars_period": 13364
+      "stars": 111874,
+      "forks": 12947,
+      "stars_period": 12401
     },
     {
       "rank": 3,
@@ -33,9 +33,9 @@
       "description": "Public repository for Agent Skills",
       "description_ko": "에이전트 스킬 공개 저장소.",
       "language": "Python",
-      "stars": 194578,
-      "forks": 22896,
-      "stars_period": 6169
+      "stars": 194689,
+      "forks": 22903,
+      "stars_period": 6220
     },
     {
       "rank": 4,
@@ -44,9 +44,9 @@
       "description": "Browser automation CLI for AI agents",
       "description_ko": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 51162,
-      "forks": 3571,
-      "stars_period": 4360
+      "stars": 51279,
+      "forks": 3580,
+      "stars_period": 4601
     },
     {
       "rank": 5,
@@ -55,9 +55,9 @@
       "description": "Open-source plugin for designing and reviewing software with agents",
       "description_ko": "Open-source plugin for designing and reviewing software with agents",
       "language": "Python",
-      "stars": 19123,
-      "forks": 1419,
-      "stars_period": 5560
+      "stars": 19267,
+      "forks": 1429,
+      "stars_period": 5539
     },
     {
       "rank": 6,
@@ -66,9 +66,9 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "description_ko": "가상머신을 갖춘 오픈소스 Grok Bot 대안.",
       "language": "TypeScript",
-      "stars": 22731,
-      "forks": 3163,
-      "stars_period": 7763
+      "stars": 22865,
+      "forks": 3183,
+      "stars_period": 6413
     },
     {
       "rank": 7,
@@ -77,9 +77,9 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "description_ko": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 72238,
-      "forks": 57472,
-      "stars_period": 3778
+      "stars": 72285,
+      "forks": 57490,
+      "stars_period": 4526
     },
     {
       "rank": 8,
@@ -88,9 +88,9 @@
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "description_ko": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
-      "stars": 17971,
-      "forks": 2200,
-      "stars_period": 1764
+      "stars": 17996,
+      "forks": 2204,
+      "stars_period": 1859
     },
     {
       "rank": 9,
@@ -99,9 +99,9 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "description_ko": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 11050,
-      "forks": 919,
-      "stars_period": 511
+      "stars": 11257,
+      "forks": 944,
+      "stars_period": 818
     },
     {
       "rank": 10,
@@ -110,9 +110,9 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "description_ko": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 117546,
-      "forks": 12293,
-      "stars_period": 3502
+      "stars": 117625,
+      "forks": 12306,
+      "stars_period": 3670
     }
   ]
 }
