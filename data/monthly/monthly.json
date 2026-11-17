@@ -1,7 +1,7 @@
 {
   "period": "monthly",
-  "date": "2026-11-17",
-  "fetched_at": "2026-11-17T10:27:08+09:00",
+  "date": "2026-11-18",
+  "fetched_at": "2026-11-18T00:23:12+09:00",
   "source": "https://github.com/trending?since=monthly",
   "repos": [
     {
@@ -11,8 +11,8 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "description_ko": "Claude Code, Cursor, Codex용 안티 AI 티 나는 디자인 스킬. AI스러운 디자인을 잡아준다.",
       "language": "CSS",
-      "stars": 56146,
-      "forks": 3023,
+      "stars": 56642,
+      "forks": 3048,
       "stars_period": 25988
     },
     {
@@ -22,8 +22,8 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_ko": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
       "language": "JavaScript",
-      "stars": 73982,
-      "forks": 4953,
+      "stars": 74510,
+      "forks": 4987,
       "stars_period": 43924
     },
     {
@@ -33,31 +33,31 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "description_ko": "GitHub에 등록된 설명이 없는 레포지토리.",
       "language": "TypeScript",
-      "stars": 62840,
-      "forks": 11160,
+      "stars": 63722,
+      "forks": 11244,
       "stars_period": 34691
     },
     {
       "rank": 4,
-      "full_name": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "description_ko": "모든 에이전트를 위한 세션 간 영구 컨텍스트. 에이전트가 세션 중 한 일을 전부 기록해 AI로 압축하고, 다음 세션에 필요한 맥락을 다시 넣어준다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등에서 동작한다.",
-      "language": "TypeScript",
-      "stars": 117706,
-      "forks": 10224,
-      "stars_period": 17074
-    },
-    {
-      "rank": 5,
       "full_name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "description_ko": "에이전트 스킬 공개 저장소.",
       "language": "Python",
-      "stars": 196070,
-      "forks": 23015,
+      "stars": 196517,
+      "forks": 23054,
       "stars_period": 14817
+    },
+    {
+      "rank": 5,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "description_ko": "모든 에이전트를 위한 세션 간 영구 컨텍스트. 에이전트가 세션 중 한 일을 전부 기록해 AI로 압축하고, 다음 세션에 필요한 맥락을 다시 넣어준다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등에서 동작한다.",
+      "language": "TypeScript",
+      "stars": 117890,
+      "forks": 10244,
+      "stars_period": 17074
     },
     {
       "rank": 6,
@@ -66,8 +66,8 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "description_ko": "코딩 에이전트를 위한 디자인 어휘. 세련되고 과감하게 방향을 잡고, 비평과 감사로 검토해 AI 티 나는 결과물을 출하 전에 잡아낸다.",
       "language": "Rust",
-      "stars": 111401,
-      "forks": 6660,
+      "stars": 111911,
+      "forks": 6678,
       "stars_period": 29881
     },
     {
@@ -77,42 +77,42 @@
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "description_ko": "평생 개인 맞춤형 튜터, 딥튜터.",
       "language": "Python",
-      "stars": 59793,
-      "forks": 7239,
+      "stars": 59985,
+      "forks": 7267,
       "stars_period": 18533
     },
     {
       "rank": 8,
-      "full_name": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "description_ko": "HTML을 쓰고 영상을 렌더링한다. 에이전트를 위해 만들었다.",
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "description_ko": "업무 공간에서 최신 정보를 파악하고 에이전트를 관리하세요. 클릭 한 번으로 코드를 작성하고, 결정하고, 계획하고, 주석을 달고, 검토하고, 팀과 공유하고, 모든 피드백을 에이전트에 전송할 수 있습니다.",
       "language": "TypeScript",
-      "stars": 85256,
-      "forks": 7894,
-      "stars_period": 20459
+      "stars": 12936,
+      "forks": 1298,
+      "stars_period": 2848
     },
     {
       "rank": 9,
       "full_name": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
-      "description_ko": "소셜 네트워크 전반에 걸쳐 사용자 이름으로 소셜 미디어 계정 추적",
+      "description_ko": "소셜 네트워크 전반에 걸쳐 사용자 이름으로 소셜 미디어 계정을 추적하세요.",
       "language": "Python",
-      "stars": 113187,
-      "forks": 13033,
+      "stars": 113617,
+      "forks": 13079,
       "stars_period": 19079
     },
     {
       "rank": 10,
-      "full_name": "Leonxlnx/taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "description_ko": "코딩 에이전트에 개성을 더해주는 에이전트 스킬: 아트 디렉션, 참고 이미지, 일반적인 AI 페이지 대신 브라우저 확인",
-      "language": "JavaScript",
-      "stars": 116940,
-      "forks": 7831,
-      "stars_period": 19384
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "description_ko": "HTML을 쓰고 영상을 렌더링한다. 에이전트를 위해 만들었다.",
+      "language": "TypeScript",
+      "stars": 85732,
+      "forks": 7950,
+      "stars_period": 20459
     }
   ]
 }
