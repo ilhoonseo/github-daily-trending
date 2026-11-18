@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "date": "2026-11-18",
-  "fetched_at": "2026-11-18T00:23:12+09:00",
+  "fetched_at": "2026-11-18T09:24:00+09:00",
   "source": "https://github.com/trending?since=weekly",
   "repos": [
     {
@@ -11,9 +11,9 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "description_ko": "최신 웹 모범 사례를 반영하여 코딩 에이전트를 최신 상태로 유지하세요.",
       "language": "TypeScript",
-      "stars": 8302,
-      "forks": 715,
-      "stars_period": 6542
+      "stars": 8442,
+      "forks": 724,
+      "stars_period": 7015
     },
     {
       "rank": 2,
@@ -22,9 +22,9 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "description_ko": "업무 공간에서 최신 정보를 파악하고 에이전트를 관리하세요. 클릭 한 번으로 코드를 작성하고, 결정하고, 계획하고, 주석을 달고, 검토하고, 팀과 공유하고, 모든 피드백을 에이전트에 전송할 수 있습니다.",
       "language": "TypeScript",
-      "stars": 12935,
-      "forks": 1298,
-      "stars_period": 2325
+      "stars": 13062,
+      "forks": 1313,
+      "stars_period": 2926
     },
     {
       "rank": 3,
@@ -33,9 +33,9 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_ko": "완전히 맞춤 설정이 가능하고 상담원 사용에 적합한 오픈 소스 디자인 시스템",
       "language": "TypeScript",
-      "stars": 29970,
-      "forks": 2337,
-      "stars_period": 10939
+      "stars": 30141,
+      "forks": 2354,
+      "stars_period": 8700
     },
     {
       "rank": 4,
@@ -44,9 +44,9 @@
       "description": "The personal finance app for everyone (by everyone)",
       "description_ko": "모두를 위한(모두가 만든) 개인 금융 앱",
       "language": "Ruby",
-      "stars": 16189,
-      "forks": 1411,
-      "stars_period": 4679
+      "stars": 16266,
+      "forks": 1416,
+      "stars_period": 4786
     },
     {
       "rank": 5,
@@ -55,9 +55,9 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "description_ko": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 다중 소스 시장 데이터, 실시간 뉴스, 의사 결정 대시보드, 자동 알림 및 비용 없는 예약 실행을 갖춘 LLM 기반 다중 시장 주식 분석 시스템.",
       "language": "Python",
-      "stars": 73025,
-      "forks": 57759,
-      "stars_period": 4355
+      "stars": 73081,
+      "forks": 57779,
+      "stars_period": 3653
     },
     {
       "rank": 6,
@@ -66,9 +66,9 @@
       "description": "Public repository for Agent Skills",
       "description_ko": "에이전트 스킬 공개 저장소.",
       "language": "Python",
-      "stars": 196517,
-      "forks": 23054,
-      "stars_period": 5666
+      "stars": 196726,
+      "forks": 23064,
+      "stars_period": 4847
     },
     {
       "rank": 7,
@@ -77,9 +77,9 @@
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 82개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
       "language": "Python",
-      "stars": 8476,
-      "forks": 1293,
-      "stars_period": 1747
+      "stars": 9251,
+      "forks": 1357,
+      "stars_period": 2508
     },
     {
       "rank": 8,
@@ -88,9 +88,9 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "description_ko": "알리바바의 규모에서 안전성, 신속성, 효율성, 실전 검증을 거친 솔루션. 하이브리드 아키텍처 코드 검토 도구: 결정적 파이프라인 + LLM 에이전트, 정확한 라인 수준의 주석, 내장된 다국어 규칙 세트(NPE, 스레드 안전성, XSS, SQL 주입), OpenAI 및 Anthropic 호환.",
       "language": "Go",
-      "stars": 53497,
-      "forks": 4403,
-      "stars_period": 3056
+      "stars": 53715,
+      "forks": 4429,
+      "stars_period": 3675
     },
     {
       "rank": 9,
@@ -99,9 +99,9 @@
       "description": "Browser automation CLI for AI agents",
       "description_ko": "AI 에이전트를 위한 브라우저 자동화 CLI",
       "language": "Rust",
-      "stars": 52262,
-      "forks": 3653,
-      "stars_period": 3760
+      "stars": 52366,
+      "forks": 3663,
+      "stars_period": 3429
     },
     {
       "rank": 10,
@@ -110,9 +110,9 @@
       "description": "Chrome DevTools for coding agents",
       "description_ko": "코딩 에이전트를 위한 Chrome 개발자 도구",
       "language": "TypeScript",
-      "stars": 57975,
-      "forks": 4867,
-      "stars_period": 2593
+      "stars": 58029,
+      "forks": 4869,
+      "stars_period": 2948
     }
   ]
 }

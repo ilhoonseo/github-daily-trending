@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "date": "2026-11-18",
-  "fetched_at": "2026-11-18T00:23:12+09:00",
+  "fetched_at": "2026-11-18T09:24:00+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
@@ -11,10 +11,10 @@
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 82개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
       "language": "Python",
-      "stars": 8476,
-      "forks": 1293,
-      "stars_period": 1007,
-      "stars_today": 1007
+      "stars": 9251,
+      "forks": 1357,
+      "stars_period": 1005,
+      "stars_today": 1005
     },
     {
       "rank": 2,
@@ -23,10 +23,10 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹 전반에 걸쳐 모든 주제를 조사한 다음 근거 있는 요약을 종합하는 AI 에이전트 스킬",
       "language": "Python",
-      "stars": 68702,
-      "forks": 6119,
-      "stars_period": 772,
-      "stars_today": 772
+      "stars": 69041,
+      "forks": 6145,
+      "stars_period": 696,
+      "stars_today": 696
     },
     {
       "rank": 3,
@@ -35,10 +35,10 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "description_ko": "알리바바의 규모에서 안전성, 신속성, 효율성, 실전 검증을 거친 솔루션. 하이브리드 아키텍처 코드 검토 도구: 결정적 파이프라인 + LLM 에이전트, 정확한 라인 수준의 주석, 내장된 다국어 규칙 세트(NPE, 스레드 안전성, XSS, SQL 주입), OpenAI 및 Anthropic 호환.",
       "language": "Go",
-      "stars": 53497,
-      "forks": 4402,
-      "stars_period": 764,
-      "stars_today": 764
+      "stars": 53715,
+      "forks": 4429,
+      "stars_period": 763,
+      "stars_today": 763
     },
     {
       "rank": 4,
@@ -47,10 +47,10 @@
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "description_ko": "코딩 에이전트 제공을 위한 자체 호스팅 워크플로. 스크립트와 인간 승인 게이트를 사용하여 CodeBuddy, Codex 및 Claude Code를 조율합니다. 코딩 어시스턴트를 위한 로컬 워크플로가 포함됩니다.",
       "language": "Go",
-      "stars": 2912,
-      "forks": 421,
-      "stars_period": 590,
-      "stars_today": 590
+      "stars": 3117,
+      "forks": 436,
+      "stars_period": 591,
+      "stars_today": 591
     },
     {
       "rank": 5,
@@ -59,10 +59,10 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "description_ko": "Univer Office SDK로 나만의 AI 오피스를 구축하세요. 사람과 AI 에이전트를 위한 편집, 계산, 협업, 파일 처리 기능을 제품에 도입하세요. 확장 가능한 오픈 소스 코어 기반.",
       "language": "TypeScript",
-      "stars": 28719,
-      "forks": 2608,
-      "stars_period": 1776,
-      "stars_today": 1776
+      "stars": 28893,
+      "forks": 2616,
+      "stars_period": 1774,
+      "stars_today": 1774
     },
     {
       "rank": 6,
@@ -71,10 +71,10 @@
       "description": "Modern Docker Management, Designed for Everyone",
       "description_ko": "모두를 위해 설계된 현대적인 Docker 관리",
       "language": "Go",
-      "stars": 9125,
-      "forks": 488,
-      "stars_period": 654,
-      "stars_today": 654
+      "stars": 9314,
+      "forks": 513,
+      "stars_period": 618,
+      "stars_today": 618
     },
     {
       "rank": 7,
@@ -83,8 +83,8 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "description_ko": "Stitch MCP 서버와 함께 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다.",
       "language": "TypeScript",
-      "stars": 9962,
-      "forks": 1306,
+      "stars": 10093,
+      "forks": 1328,
       "stars_period": 350,
       "stars_today": 350
     },
@@ -95,10 +95,10 @@
       "description": "Cursor plugin specification and official plugins",
       "description_ko": "Cursor 플러그인 사양 및 공식 플러그인",
       "language": "TypeScript",
-      "stars": 16786,
-      "forks": 1813,
-      "stars_period": 196,
-      "stars_today": 196
+      "stars": 16893,
+      "forks": 1830,
+      "stars_period": 201,
+      "stars_today": 201
     },
     {
       "rank": 9,
@@ -107,10 +107,10 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "description_ko": "실제로 동작하는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론.",
       "language": "Shell",
-      "stars": 319067,
-      "forks": 28444,
-      "stars_period": 1905,
-      "stars_today": 1905
+      "stars": 319319,
+      "forks": 28477,
+      "stars_period": 1917,
+      "stars_today": 1917
     },
     {
       "rank": 10,
@@ -119,10 +119,10 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "description_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 에이전트를 프런트엔드 애플리케이션으로 가져옵니다.",
       "language": "TypeScript",
-      "stars": 19842,
-      "forks": 2051,
-      "stars_period": 1444,
-      "stars_today": 1444
+      "stars": 19986,
+      "forks": 2067,
+      "stars_period": 1445,
+      "stars_today": 1445
     }
   ]
 }
