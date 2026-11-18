@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "date": "2026-11-18",
-  "fetched_at": "2026-11-18T09:24:00+09:00",
+  "fetched_at": "2026-11-18T23:57:32+09:00",
   "source": "https://github.com/trending?since=weekly",
   "repos": [
     {
@@ -11,8 +11,8 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "description_ko": "최신 웹 모범 사례를 반영하여 코딩 에이전트를 최신 상태로 유지하세요.",
       "language": "TypeScript",
-      "stars": 8442,
-      "forks": 724,
+      "stars": 8718,
+      "forks": 732,
       "stars_period": 7015
     },
     {
@@ -22,97 +22,97 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "description_ko": "업무 공간에서 최신 정보를 파악하고 에이전트를 관리하세요. 클릭 한 번으로 코드를 작성하고, 결정하고, 계획하고, 주석을 달고, 검토하고, 팀과 공유하고, 모든 피드백을 에이전트에 전송할 수 있습니다.",
       "language": "TypeScript",
-      "stars": 13062,
-      "forks": 1313,
+      "stars": 13303,
+      "forks": 1338,
       "stars_period": 2926
     },
     {
       "rank": 3,
-      "full_name": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "description_ko": "완전히 맞춤 설정이 가능하고 상담원 사용에 적합한 오픈 소스 디자인 시스템",
-      "language": "TypeScript",
-      "stars": 30141,
-      "forks": 2354,
-      "stars_period": 8700
-    },
-    {
-      "rank": 4,
-      "full_name": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
-      "description": "The personal finance app for everyone (by everyone)",
-      "description_ko": "모두를 위한(모두가 만든) 개인 금융 앱",
-      "language": "Ruby",
-      "stars": 16266,
-      "forks": 1416,
-      "stars_period": 4786
-    },
-    {
-      "rank": 5,
-      "full_name": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "description_ko": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 다중 소스 시장 데이터, 실시간 뉴스, 의사 결정 대시보드, 자동 알림 및 비용 없는 예약 실행을 갖춘 LLM 기반 다중 시장 주식 분석 시스템.",
-      "language": "Python",
-      "stars": 73081,
-      "forks": 57779,
-      "stars_period": 3653
-    },
-    {
-      "rank": 6,
-      "full_name": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "description_ko": "에이전트 스킬 공개 저장소.",
-      "language": "Python",
-      "stars": 196726,
-      "forks": 23064,
-      "stars_period": 4847
-    },
-    {
-      "rank": 7,
       "full_name": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 82개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
       "language": "Python",
-      "stars": 9251,
-      "forks": 1357,
+      "stars": 10695,
+      "forks": 1477,
       "stars_period": 2508
     },
     {
-      "rank": 8,
+      "rank": 4,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "description_ko": "완전히 맞춤 설정이 가능하고 상담원 사용에 적합한 오픈 소스 디자인 시스템",
+      "language": "TypeScript",
+      "stars": 30464,
+      "forks": 2382,
+      "stars_period": 8700
+    },
+    {
+      "rank": 5,
+      "full_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "description_ko": "모두를 위한(모두가 만든) 개인 금융 앱",
+      "language": "Ruby",
+      "stars": 16408,
+      "forks": 1437,
+      "stars_period": 4786
+    },
+    {
+      "rank": 6,
       "full_name": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "description_ko": "알리바바의 규모에서 안전성, 신속성, 효율성, 실전 검증을 거친 솔루션. 하이브리드 아키텍처 코드 검토 도구: 결정적 파이프라인 + LLM 에이전트, 정확한 라인 수준의 주석, 내장된 다국어 규칙 세트(NPE, 스레드 안전성, XSS, SQL 주입), OpenAI 및 Anthropic 호환.",
       "language": "Go",
-      "stars": 53715,
-      "forks": 4429,
+      "stars": 54117,
+      "forks": 4474,
       "stars_period": 3675
     },
     {
-      "rank": 9,
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "description_ko": "AI 에이전트를 위한 브라우저 자동화 CLI",
-      "language": "Rust",
-      "stars": 52366,
-      "forks": 3663,
-      "stars_period": 3429
+      "rank": 7,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "description_ko": "Stitch MCP 서버와 함께 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다.",
+      "language": "TypeScript",
+      "stars": 10305,
+      "forks": 1358,
+      "stars_period": 1197
     },
     {
-      "rank": 10,
+      "rank": 8,
+      "full_name": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "description_ko": "주식 투자자 및 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차트 작성, 경제 캘린더, 스크리너 및 거래 전략 개발.",
+      "language": "Python",
+      "stars": 7012,
+      "forks": 1430,
+      "stars_period": 2985
+    },
+    {
+      "rank": 9,
       "full_name": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "description_ko": "코딩 에이전트를 위한 Chrome 개발자 도구",
       "language": "TypeScript",
-      "stars": 58029,
-      "forks": 4869,
+      "stars": 58168,
+      "forks": 4874,
       "stars_period": 2948
+    },
+    {
+      "rank": 10,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "description_ko": "에이전트 스킬 공개 저장소.",
+      "language": "Python",
+      "stars": 197048,
+      "forks": 23088,
+      "stars_period": 4847
     }
   ]
 }
