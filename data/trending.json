@@ -1,7 +1,7 @@
 {
   "period": "daily",
-  "date": "2026-11-18",
-  "fetched_at": "2026-11-18T23:57:32+09:00",
+  "date": "2026-11-19",
+  "fetched_at": "2026-11-19T08:47:52+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
@@ -9,10 +9,10 @@
       "full_name": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 82개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
+      "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 82개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴과 엔터프라이즈 ID + 인프라 공격 매트릭스.",
       "language": "Python",
-      "stars": 10695,
-      "forks": 1477,
+      "stars": 11332,
+      "forks": 1511,
       "stars_period": 2322,
       "stars_today": 2322
     },
@@ -23,8 +23,8 @@
       "description": "Cursor plugin specification and official plugins",
       "description_ko": "Cursor 플러그인 사양 및 공식 플러그인",
       "language": "TypeScript",
-      "stars": 17094,
-      "forks": 1878,
+      "stars": 17180,
+      "forks": 1893,
       "stars_period": 315,
       "stars_today": 315
     },
@@ -35,8 +35,8 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "description_ko": "\"CLI-Anything: 모든 소프트웨어를 에이전트 네이티브로 만들기\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 59430,
-      "forks": 5390,
+      "stars": 59715,
+      "forks": 5424,
       "stars_period": 384,
       "stars_today": 384
     },
@@ -47,8 +47,8 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹 전반에 걸쳐 모든 주제를 조사한 다음 근거 있는 요약을 종합하는 AI 에이전트 스킬",
       "language": "Python",
-      "stars": 69690,
-      "forks": 6223,
+      "stars": 69969,
+      "forks": 6241,
       "stars_period": 1062,
       "stars_today": 1062
     },
@@ -59,8 +59,8 @@
       "description": "Modern Docker Management, Designed for Everyone",
       "description_ko": "모두를 위해 설계된 현대적인 Docker 관리",
       "language": "Go",
-      "stars": 9637,
-      "forks": 546,
+      "stars": 9778,
+      "forks": 561,
       "stars_period": 547,
       "stars_today": 547
     },
@@ -71,10 +71,10 @@
       "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "description_ko": "품질 게이트, 의미적 중복 감지, 합성 평가 데이터 세트 생성 및 기술이 에이전트의 행동에 미치는 영향을 측정하는 실시간 에이전트 평가를 통해 AI 에이전트의 기술과 플러그인을 평가하는 다층 프레임워크입니다.",
       "language": "Python",
-      "stars": 3525,
-      "forks": 489,
-      "stars_period": 869,
-      "stars_today": 869
+      "stars": 3705,
+      "forks": 516,
+      "stars_period": 323,
+      "stars_today": 323
     },
     {
       "rank": 7,
@@ -83,10 +83,10 @@
       "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
       "description_ko": "Node Version Manager - 여러 개의 활성 node.js 버전을 관리하는 POSIX 호환 Bash 스크립트.",
       "language": "Shell",
-      "stars": 96127,
-      "forks": 10777,
-      "stars_period": 199,
-      "stars_today": 199
+      "stars": 96150,
+      "forks": 10782,
+      "stars_period": 111,
+      "stars_today": 111
     },
     {
       "rank": 8,
@@ -95,8 +95,8 @@
       "description": "An extremely fast Python package and project manager, written in Rust.",
       "description_ko": "Rust로 작성된 매우 빠른 Python 패키지 및 프로젝트 관리자.",
       "language": "Rust",
-      "stars": 92154,
-      "forks": 3914,
+      "stars": 92216,
+      "forks": 3922,
       "stars_period": 260,
       "stars_today": 260
     },
@@ -107,8 +107,8 @@
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "description_ko": "PaperOrchestra는 자동화된 AI 연구 논문 작성을 위한 다중 에이전트 프레임워크입니다.",
       "language": "Python",
-      "stars": 3867,
-      "forks": 494,
+      "stars": 4247,
+      "forks": 531,
       "stars_period": 1529,
       "stars_today": 1529
     },
@@ -119,8 +119,8 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "description_ko": "Stitch MCP 서버와 함께 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다.",
       "language": "TypeScript",
-      "stars": 10305,
-      "forks": 1358,
+      "stars": 10388,
+      "forks": 1366,
       "stars_period": 369,
       "stars_today": 369
     }
