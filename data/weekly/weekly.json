@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "date": "2026-11-20",
-  "fetched_at": "2026-11-20T09:11:12+09:00",
+  "fetched_at": "2026-11-20T23:45:54+09:00",
   "source": "https://github.com/trending?since=weekly",
   "repos": [
     {
@@ -11,8 +11,8 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "description_ko": "업무 공간에서 최신 정보를 파악하고 에이전트를 관리하세요. 클릭 한 번으로 코드를 작성하고, 결정하고, 계획하고, 주석을 달고, 검토하고, 팀과 공유하고, 모든 피드백을 에이전트에게 전송할 수 있습니다.",
       "language": "TypeScript",
-      "stars": 13661,
-      "forks": 1383,
+      "stars": 13802,
+      "forks": 1395,
       "stars_period": 3468
     },
     {
@@ -22,8 +22,8 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "description_ko": "Stitch MCP 서버와 함께 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다.",
       "language": "TypeScript",
-      "stars": 10712,
-      "forks": 1387,
+      "stars": 10906,
+      "forks": 1398,
       "stars_period": 1829
     },
     {
@@ -33,8 +33,8 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "description_ko": "최신 웹 모범 사례를 반영하여 코딩 에이전트를 최신 상태로 유지하세요.",
       "language": "TypeScript",
-      "stars": 9111,
-      "forks": 754,
+      "stars": 9427,
+      "forks": 772,
       "stars_period": 6858
     },
     {
@@ -44,8 +44,8 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "description_ko": "알리바바의 규모에서 안전성, 속도, 효율성, 실전 검증을 거친 솔루션. 하이브리드 아키텍처 코드 검토 도구: 결정론적 파이프라인 + LLM 에이전트, 정확한 라인 수준의 주석, 내장형 다국어 규칙 세트(NPE, 스레드 안전성, XSS, SQL 주입), OpenAI 및 Anthropic 호환.",
       "language": "Go",
-      "stars": 54380,
-      "forks": 4500,
+      "stars": 54560,
+      "forks": 4519,
       "stars_period": 4492
     },
     {
@@ -55,8 +55,8 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹 전반에 걸쳐 모든 주제를 조사한 다음 근거 있는 요약을 종합하는 AI 에이전트 스킬",
       "language": "Python",
-      "stars": 70782,
-      "forks": 6308,
+      "stars": 71230,
+      "forks": 6336,
       "stars_period": 3179
     },
     {
@@ -66,8 +66,8 @@
       "description": "Chrome DevTools for coding agents",
       "description_ko": "코딩 에이전트를 위한 Chrome 개발자 도구",
       "language": "TypeScript",
-      "stars": 58361,
-      "forks": 4875,
+      "stars": 58475,
+      "forks": 4885,
       "stars_period": 3229
     },
     {
@@ -77,8 +77,8 @@
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "description_ko": "주식 투자자 및 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차트 작성, 경제 캘린더, 스크리너 및 거래 전략 개발.",
       "language": "Python",
-      "stars": 7247,
-      "forks": 1459,
+      "stars": 7362,
+      "forks": 1474,
       "stars_period": 3385
     },
     {
@@ -88,8 +88,8 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "description_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 에이전트를 프런트엔드 애플리케이션으로 가져옵니다.",
       "language": "TypeScript",
-      "stars": 20632,
-      "forks": 2123,
+      "stars": 20747,
+      "forks": 2130,
       "stars_period": 3455
     },
     {
@@ -99,8 +99,8 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_ko": "완전히 맞춤 설정이 가능하고 상담원 사용에 최적화된 오픈 소스 디자인 시스템",
       "language": "TypeScript",
-      "stars": 30954,
-      "forks": 2426,
+      "stars": 31220,
+      "forks": 2454,
       "stars_period": 4977
     },
     {
@@ -110,8 +110,8 @@
       "description": "Enable Hermès Watch Faces on any Apple Watch devices",
       "description_ko": "모든 Apple Watch 기기에서 Hermès 워치 페이스 활성화",
       "language": "Objective-C",
-      "stars": 2247,
-      "forks": 189,
+      "stars": 2280,
+      "forks": 191,
       "stars_period": 904
     }
   ]
