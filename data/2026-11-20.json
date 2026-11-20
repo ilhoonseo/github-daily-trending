@@ -1,7 +1,7 @@
 {
   "period": "daily",
   "date": "2026-11-20",
-  "fetched_at": "2026-11-20T00:04:42+09:00",
+  "fetched_at": "2026-11-20T09:11:12+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
@@ -11,10 +11,10 @@
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 82개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
       "language": "Python",
-      "stars": 11932,
-      "forks": 1558,
-      "stars_period": 1353,
-      "stars_today": 1353
+      "stars": 12494,
+      "forks": 1588,
+      "stars_period": 1349,
+      "stars_today": 1349
     },
     {
       "rank": 2,
@@ -23,10 +23,10 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "description_ko": "실제로 동작하는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론.",
       "language": "Shell",
-      "stars": 321779,
-      "forks": 28603,
-      "stars_period": 2029,
-      "stars_today": 2029
+      "stars": 322063,
+      "forks": 28628,
+      "stars_period": 2028,
+      "stars_today": 2028
     },
     {
       "rank": 3,
@@ -35,10 +35,10 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "description_ko": "\"CLI-Anything: 모든 소프트웨어를 에이전트 네이티브로 만들기\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 60298,
-      "forks": 5468,
-      "stars_period": 899,
-      "stars_today": 899
+      "stars": 60540,
+      "forks": 5494,
+      "stars_period": 898,
+      "stars_today": 898
     },
     {
       "rank": 4,
@@ -47,10 +47,10 @@
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "description_ko": "🧠 两小时从 0 训出你的 64M 大模型。2시간 만에 처음부터 나만의 64M LLM을 학습시키세요.",
       "language": "Python",
-      "stars": 66696,
-      "forks": 8764,
-      "stars_period": 687,
-      "stars_today": 687
+      "stars": 66844,
+      "forks": 8781,
+      "stars_period": 238,
+      "stars_today": 238
     },
     {
       "rank": 5,
@@ -59,10 +59,10 @@
       "description": "Cursor plugin specification and official plugins",
       "description_ko": "Cursor 플러그인 사양 및 공식 플러그인",
       "language": "TypeScript",
-      "stars": 17455,
-      "forks": 1926,
-      "stars_period": 383,
-      "stars_today": 383
+      "stars": 17550,
+      "forks": 1930,
+      "stars_period": 384,
+      "stars_today": 384
     },
     {
       "rank": 6,
@@ -71,10 +71,10 @@
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
       "description_ko": "상담원을 더 스마트하게 만드는 지식 인프라. 하나의 API를 통해 검색, 스크래핑 및 550개 이상의 데이터 제공업체를 이용하세요.",
       "language": "TypeScript",
-      "stars": 203737,
-      "forks": 10675,
-      "stars_period": 795,
-      "stars_today": 795
+      "stars": 204188,
+      "forks": 10697,
+      "stars_period": 825,
+      "stars_today": 825
     },
     {
       "rank": 7,
@@ -83,10 +83,10 @@
       "description": "The official NGINX Open Source repository.",
       "description_ko": "공식 NGINX 오픈 소스 저장소.",
       "language": "C",
-      "stars": 32253,
-      "forks": 8408,
-      "stars_period": 66,
-      "stars_today": 66
+      "stars": 32323,
+      "forks": 8414,
+      "stars_period": 73,
+      "stars_today": 73
     },
     {
       "rank": 8,
@@ -95,8 +95,8 @@
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "description_ko": "OpenVINO™는 AI 추론을 최적화하고 배포하기 위한 오픈 소스 툴킷입니다.",
       "language": "C++",
-      "stars": 11485,
-      "forks": 3612,
+      "stars": 11555,
+      "forks": 3621,
       "stars_period": 246,
       "stars_today": 246
     },
@@ -107,10 +107,10 @@
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "description_ko": "Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, Pi를 위한 편집 다이어그램 디자인. 45가지 다이어그램 유형. 독립형 HTML + SVG. 그림자가 없습니다. Mermaid slop이 없습니다.",
       "language": "HTML",
-      "stars": 68429,
-      "forks": 4602,
-      "stars_period": 332,
-      "stars_today": 332
+      "stars": 68621,
+      "forks": 4616,
+      "stars_period": 271,
+      "stars_today": 271
     },
     {
       "rank": 10,
@@ -119,10 +119,10 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹 전반에 걸쳐 모든 주제를 조사한 다음 근거 있는 요약을 종합하는 AI 에이전트 스킬",
       "language": "Python",
-      "stars": 70576,
-      "forks": 6285,
-      "stars_period": 952,
-      "stars_today": 952
+      "stars": 70782,
+      "forks": 6308,
+      "stars_period": 954,
+      "stars_today": 954
     }
   ]
 }
