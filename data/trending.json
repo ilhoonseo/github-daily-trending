@@ -1,7 +1,7 @@
 {
   "period": "daily",
-  "date": "2026-11-24",
-  "fetched_at": "2026-11-24T12:43:11+09:00",
+  "date": "2026-11-25",
+  "fetched_at": "2026-11-25T01:52:02+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
@@ -9,12 +9,12 @@
       "full_name": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 82개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
+      "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 84개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
       "language": "Python",
-      "stars": 19972,
-      "forks": 2115,
-      "stars_period": 2029,
-      "stars_today": 2029
+      "stars": 21008,
+      "forks": 2196,
+      "stars_period": 1833,
+      "stars_today": 1833
     },
     {
       "rank": 2,
@@ -23,10 +23,10 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "description_ko": "실제로 동작하는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론.",
       "language": "Shell",
-      "stars": 325194,
-      "forks": 28843,
-      "stars_period": 840,
-      "stars_today": 840
+      "stars": 325738,
+      "forks": 28888,
+      "stars_period": 1006,
+      "stars_today": 1006
     },
     {
       "rank": 3,
@@ -35,10 +35,10 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "description_ko": "\"CLI-Anything: 모든 소프트웨어를 에이전트 네이티브로 만들기\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 63817,
-      "forks": 5802,
-      "stars_period": 790,
-      "stars_today": 790
+      "stars": 64496,
+      "forks": 5881,
+      "stars_period": 1075,
+      "stars_today": 1075
     },
     {
       "rank": 4,
@@ -47,10 +47,10 @@
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "description_ko": "🧠 两小时从 0 训出你的 64M 大模型。2시간 만에 처음부터 나만의 64M LLM을 학습시키세요.",
       "language": "Python",
-      "stars": 69593,
-      "forks": 9089,
-      "stars_period": 828,
-      "stars_today": 828
+      "stars": 70034,
+      "forks": 9123,
+      "stars_period": 727,
+      "stars_today": 727
     },
     {
       "rank": 5,
@@ -59,22 +59,22 @@
       "description": "Cursor plugin specification and official plugins",
       "description_ko": "Cursor 플러그인 사양 및 공식 플러그인",
       "language": "TypeScript",
-      "stars": 18869,
-      "forks": 2047,
-      "stars_period": 397,
-      "stars_today": 397
+      "stars": 19094,
+      "forks": 2063,
+      "stars_period": 359,
+      "stars_today": 359
     },
     {
       "rank": 6,
       "full_name": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-      "description_ko": "상담원을 더 스마트하게 만드는 지식 인프라. 하나의 API를 통해 550개 이상의 데이터 제공업체를 검색, 스크랩 및 액세스하세요.",
+      "description_ko": "상담원을 더 스마트하게 만드는 지식 인프라. 하나의 API를 통해 550개 이상의 데이터 제공업체를 검색, 스크래핑하고 액세스하세요.",
       "language": "TypeScript",
-      "stars": 208050,
-      "forks": 10872,
-      "stars_period": 924,
-      "stars_today": 924
+      "stars": 208639,
+      "forks": 10901,
+      "stars_period": 990,
+      "stars_today": 990
     },
     {
       "rank": 7,
@@ -83,10 +83,10 @@
       "description": "The official NGINX Open Source repository.",
       "description_ko": "공식 NGINX 오픈 소스 저장소.",
       "language": "C",
-      "stars": 33078,
-      "forks": 8395,
-      "stars_period": 174,
-      "stars_today": 174
+      "stars": 33158,
+      "forks": 8392,
+      "stars_period": 158,
+      "stars_today": 158
     },
     {
       "rank": 8,
@@ -95,10 +95,10 @@
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "description_ko": "OpenVINO™는 AI 추론을 최적화하고 배포하기 위한 오픈 소스 툴킷입니다.",
       "language": "C++",
-      "stars": 12313,
-      "forks": 3680,
-      "stars_period": 184,
-      "stars_today": 184
+      "stars": 12408,
+      "forks": 3689,
+      "stars_period": 187,
+      "stars_today": 187
     },
     {
       "rank": 9,
@@ -107,10 +107,10 @@
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "description_ko": "Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, Pi를 위한 편집 다이어그램 디자인. 52가지 다이어그램 유형. 독립형 HTML + SVG. 그림자 없음. Mermaid slop 없음.",
       "language": "HTML",
-      "stars": 71087,
-      "forks": 4754,
-      "stars_period": 620,
-      "stars_today": 620
+      "stars": 71708,
+      "forks": 4791,
+      "stars_period": 794,
+      "stars_today": 794
     },
     {
       "rank": 10,
@@ -119,10 +119,10 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹 전반에 걸쳐 모든 주제를 조사한 다음 근거 있는 요약을 생성하는 AI 에이전트 스킬",
       "language": "Python",
-      "stars": 73524,
-      "forks": 6488,
-      "stars_period": 797,
-      "stars_today": 797
+      "stars": 73974,
+      "forks": 6523,
+      "stars_period": 695,
+      "stars_today": 695
     }
   ]
 }
