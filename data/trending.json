@@ -1,7 +1,7 @@
 {
   "period": "daily",
-  "date": "2026-11-26",
-  "fetched_at": "2026-11-26T10:27:25+09:00",
+  "date": "2026-11-27",
+  "fetched_at": "2026-11-27T01:14:07+09:00",
   "source": "https://github.com/trending?since=daily",
   "repos": [
     {
@@ -9,12 +9,12 @@
       "full_name": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 84개의 스킬, 15개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
+      "description_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개의 핵심 취약점 클래스에 걸쳐 선별된 85개의 스킬, 16개의 슬래시 명령, 681개의 공개 보고서 패턴, 그리고 엔터프라이즈 ID + 인프라 공격 매트릭스.",
       "language": "Python",
-      "stars": 23049,
-      "forks": 2356,
-      "stars_period": 1652,
-      "stars_today": 1652
+      "stars": 24099,
+      "forks": 2450,
+      "stars_period": 1600,
+      "stars_today": 1600
     },
     {
       "rank": 2,
@@ -23,10 +23,10 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "description_ko": "실제로 동작하는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론.",
       "language": "Shell",
-      "stars": 326629,
-      "forks": 28985,
-      "stars_period": 903,
-      "stars_today": 903
+      "stars": 327202,
+      "forks": 29013,
+      "stars_period": 853,
+      "stars_today": 853
     },
     {
       "rank": 3,
@@ -35,34 +35,34 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "description_ko": "\"CLI-Anything: 모든 소프트웨어를 에이전트 네이티브로 만들기\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 65693,
-      "forks": 5977,
-      "stars_period": 1106,
-      "stars_today": 1106
+      "stars": 66171,
+      "forks": 6018,
+      "stars_period": 744,
+      "stars_today": 744
     },
     {
       "rank": 4,
       "full_name": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "description_ko": "🧠 两小时从 0 训出你的 64M 大模型。2시간 만에 처음부터 나만의 64M LLM을 학습시키세요.",
+      "description_ko": "🧠 两小时从 0 训出你的 64M 大模型。2시간 만에 처음부터 나만의 64M LLM을 훈련하세요.",
       "language": "Python",
-      "stars": 70974,
-      "forks": 9225,
-      "stars_period": 826,
-      "stars_today": 826
+      "stars": 71514,
+      "forks": 9280,
+      "stars_period": 701,
+      "stars_today": 701
     },
     {
       "rank": 5,
       "full_name": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
-      "description_ko": "Cursor 플러그인 사양 및 공식 플러그인",
+      "description_ko": "커서 플러그인 사양 및 공식 플러그인",
       "language": "TypeScript",
-      "stars": 19536,
-      "forks": 2107,
-      "stars_period": 416,
-      "stars_today": 416
+      "stars": 19712,
+      "forks": 2125,
+      "stars_period": 268,
+      "stars_today": 268
     },
     {
       "rank": 6,
@@ -71,10 +71,10 @@
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "description_ko": "상담원을 더 스마트하게 만드는 지식 인프라. 하나의 API를 통해 550개 이상의 데이터 제공업체를 검색, 스크랩 및 액세스하세요.",
       "language": "TypeScript",
-      "stars": 210064,
-      "forks": 10992,
-      "stars_period": 1135,
-      "stars_today": 1135
+      "stars": 210672,
+      "forks": 11029,
+      "stars_period": 1042,
+      "stars_today": 1042
     },
     {
       "rank": 7,
@@ -83,10 +83,10 @@
       "description": "The official NGINX Open Source repository.",
       "description_ko": "공식 NGINX 오픈 소스 저장소.",
       "language": "C",
-      "stars": 33377,
-      "forks": 8407,
-      "stars_period": 176,
-      "stars_today": 176
+      "stars": 33475,
+      "forks": 8412,
+      "stars_period": 150,
+      "stars_today": 150
     },
     {
       "rank": 8,
@@ -95,22 +95,22 @@
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "description_ko": "OpenVINO™는 AI 추론을 최적화하고 배포하기 위한 오픈 소스 툴킷입니다.",
       "language": "C++",
-      "stars": 12654,
-      "forks": 3715,
-      "stars_period": 191,
-      "stars_today": 191
+      "stars": 12765,
+      "forks": 3722,
+      "stars_period": 176,
+      "stars_today": 176
     },
     {
       "rank": 9,
       "full_name": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "description_ko": "Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, Pi를 위한 편집 다이어그램 디자인. 52가지 다이어그램 유형. 독립형 HTML + SVG. 그림자 없음. Mermaid slop 없음.",
+      "description_ko": "Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, Pi용 편집 다이어그램 디자인. 52가지 다이어그램 유형. 독립 실행형 HTML + SVG. 그림자 없음. Mermaid slop 없음.",
       "language": "HTML",
-      "stars": 73059,
-      "forks": 4862,
-      "stars_period": 1141,
-      "stars_today": 1141
+      "stars": 73640,
+      "forks": 4906,
+      "stars_period": 951,
+      "stars_today": 951
     },
     {
       "rank": 10,
@@ -119,10 +119,10 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹 전반에 걸쳐 모든 주제를 조사한 다음 근거 있는 요약을 생성하는 AI 에이전트 스킬",
       "language": "Python",
-      "stars": 75126,
-      "forks": 6623,
-      "stars_period": 945,
-      "stars_today": 945
+      "stars": 75564,
+      "forks": 6659,
+      "stars_period": 755,
+      "stars_today": 755
     }
   ]
 }
