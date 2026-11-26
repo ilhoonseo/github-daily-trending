@@ -1,7 +1,7 @@
 {
   "period": "weekly",
   "date": "2026-11-26",
-  "fetched_at": "2026-11-26T01:39:53+09:00",
+  "fetched_at": "2026-11-26T10:27:25+09:00",
   "source": "https://github.com/trending?since=weekly",
   "repos": [
     {
@@ -11,9 +11,9 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "description_ko": "업무 공간에서 최신 정보를 파악하고 에이전트를 관리하세요. 클릭 한 번으로 코드를 작성하고, 결정하고, 계획하고, 주석을 달고, 검토하고, 팀과 공유하고, 모든 피드백을 에이전트에 전송할 수 있습니다.",
       "language": "TypeScript",
-      "stars": 15043,
-      "forks": 1447,
-      "stars_period": 1956
+      "stars": 15088,
+      "forks": 1448,
+      "stars_period": 1764
     },
     {
       "rank": 2,
@@ -22,9 +22,9 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "description_ko": "Stitch MCP 서버와 함께 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다.",
       "language": "TypeScript",
-      "stars": 12896,
-      "forks": 1533,
-      "stars_period": 2626
+      "stars": 12988,
+      "forks": 1538,
+      "stars_period": 2616
     },
     {
       "rank": 3,
@@ -33,9 +33,9 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "description_ko": "최신 웹 모범 사례를 반영하여 코딩 에이전트를 최신 상태로 유지하세요.",
       "language": "TypeScript",
-      "stars": 10985,
-      "forks": 831,
-      "stars_period": 2494
+      "stars": 11039,
+      "forks": 834,
+      "stars_period": 2309
     },
     {
       "rank": 4,
@@ -44,9 +44,9 @@
       "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
       "description_ko": "자체 컴퓨터를 갖춘 오픈 소스 개인 에이전트. 청구서를 챙기고, 통화를 준비하고, 실제 웹사이트에서 체험판을 취소하며, 조치를 취하기 전에 사용자에게 확인을 요청합니다. 선택한 모델로 사용자의 기기에서 실행됩니다. n8n 제공.",
       "language": "TypeScript",
-      "stars": 3459,
-      "forks": 558,
-      "stars_period": 1011
+      "stars": 3584,
+      "forks": 571,
+      "stars_period": 1008
     },
     {
       "rank": 5,
@@ -55,9 +55,9 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "description_ko": "알리바바의 규모에서 안전성, 속도, 효율성, 실전 검증을 거친 솔루션. 하이브리드 아키텍처 코드 검토 도구: 결정적 파이프라인 + LLM 에이전트, 정확한 라인 수준의 주석, 내장형 다국어 규칙 세트(NPE, 스레드 안전성, XSS, SQL 주입), OpenAI 및 Anthropic 호환.",
       "language": "Go",
-      "stars": 56289,
-      "forks": 4648,
-      "stars_period": 2638
+      "stars": 56370,
+      "forks": 4662,
+      "stars_period": 2259
     },
     {
       "rank": 6,
@@ -66,9 +66,9 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹 전반에 걸쳐 모든 주제를 조사한 다음 근거 있는 요약을 생성하는 AI 에이전트 스킬",
       "language": "Python",
-      "stars": 74899,
-      "forks": 6597,
-      "stars_period": 5369
+      "stars": 75126,
+      "forks": 6623,
+      "stars_period": 5302
     },
     {
       "rank": 7,
@@ -77,9 +77,9 @@
       "description": "Chrome DevTools for coding agents",
       "description_ko": "코딩 에이전트를 위한 Chrome 개발자 도구",
       "language": "TypeScript",
-      "stars": 59323,
-      "forks": 4886,
-      "stars_period": 1258
+      "stars": 59358,
+      "forks": 4890,
+      "stars_period": 1203
     },
     {
       "rank": 8,
@@ -88,9 +88,9 @@
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "description_ko": "주식 투자자 및 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차트 작성, 경제 캘린더, 스크리너 및 거래 전략 개발.",
       "language": "Python",
-      "stars": 8417,
-      "forks": 1550,
-      "stars_period": 1504
+      "stars": 8457,
+      "forks": 1553,
+      "stars_period": 1422
     },
     {
       "rank": 9,
@@ -99,9 +99,9 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "description_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 에이전트를 프런트엔드 애플리케이션에 도입하세요.",
       "language": "TypeScript",
-      "stars": 21690,
-      "forks": 2180,
-      "stars_period": 1753
+      "stars": 21724,
+      "forks": 2185,
+      "stars_period": 1421
     },
     {
       "rank": 10,
@@ -110,9 +110,9 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_ko": "완전히 맞춤 설정이 가능하고 상담원 사용에 최적화된 오픈 소스 디자인 시스템",
       "language": "TypeScript",
-      "stars": 33056,
-      "forks": 2589,
-      "stars_period": 2890
+      "stars": 33140,
+      "forks": 2593,
+      "stars_period": 2635
     }
   ]
 }
