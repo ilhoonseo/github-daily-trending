@@ -1,7 +1,7 @@
 {
   "period": "monthly",
   "date": "2026-11-27",
-  "fetched_at": "2026-11-27T01:14:07+09:00",
+  "fetched_at": "2026-11-27T10:24:59+09:00",
   "source": "https://github.com/trending?since=monthly",
   "repos": [
     {
@@ -11,9 +11,9 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "description_ko": "Claude Code, Cursor, Codex용 안티 AI 티 나는 디자인 스킬. AI스러운 디자인을 잡아준다.",
       "language": "CSS",
-      "stars": 61472,
-      "forks": 3368,
-      "stars_period": 28295
+      "stars": 61654,
+      "forks": 3383,
+      "stars_period": 26738
     },
     {
       "rank": 2,
@@ -22,9 +22,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_ko": "여러 단계로 진행하는 보안 감사용 코딩 에이전트 스킬. 독립적으로 검증되고 기계가 읽을 수 있는 결과를 낸다.",
       "language": "JavaScript",
-      "stars": 78665,
-      "forks": 5325,
-      "stars_period": 32663
+      "stars": 78869,
+      "forks": 5345,
+      "stars_period": 31165
     },
     {
       "rank": 3,
@@ -33,9 +33,9 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "description_ko": "가상머신을 갖춘 오픈소스 Grok Bot 대안.",
       "language": "TypeScript",
-      "stars": 28066,
-      "forks": 3999,
-      "stars_period": 22391
+      "stars": 28176,
+      "forks": 4019,
+      "stars_period": 22590
     },
     {
       "rank": 4,
@@ -44,9 +44,9 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "description_ko": "GitHub에 등록된 설명이 없는 레포지토리.",
       "language": "TypeScript",
-      "stars": 80563,
-      "forks": 14217,
-      "stars_period": 49283
+      "stars": 80979,
+      "forks": 14293,
+      "stars_period": 50354
     },
     {
       "rank": 5,
@@ -55,9 +55,9 @@
       "description": "Public repository for Agent Skills",
       "description_ko": "에이전트 스킬 공개 저장소.",
       "language": "Python",
-      "stars": 200883,
-      "forks": 23498,
-      "stars_period": 17272
+      "stars": 201054,
+      "forks": 23520,
+      "stars_period": 17538
     },
     {
       "rank": 6,
@@ -66,9 +66,9 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "description_ko": "모든 에이전트를 위한 세션 간 영구 컨텍스트. 에이전트가 세션 중 한 일을 전부 기록해 AI로 압축하고, 다음 세션에 필요한 맥락을 다시 넣어준다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등에서 동작한다.",
       "language": "TypeScript",
-      "stars": 119917,
-      "forks": 10427,
-      "stars_period": 17424
+      "stars": 120004,
+      "forks": 10438,
+      "stars_period": 17325
     },
     {
       "rank": 7,
@@ -77,9 +77,9 @@
       "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
       "description_ko": "Instagram 계정을 운영하는 13가지 Claude 스킬: 26가지 점수 매겨진 훅 공식, 바이럴 리서치 스킬, 캡션 린터, 휴머니저. 무료, MIT.",
       "language": "Python",
-      "stars": 9507,
-      "forks": 1618,
-      "stars_period": 6421
+      "stars": 9609,
+      "forks": 1634,
+      "stars_period": 6511
     },
     {
       "rank": 8,
@@ -88,9 +88,9 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "description_ko": "업무 공간에서 최신 정보를 파악하고 에이전트를 관리하세요. 클릭 한 번으로 코드를 작성하고, 결정하고, 계획하고, 주석을 달고, 검토하고, 팀과 공유하고, 모든 피드백을 에이전트에게 보낼 수 있습니다.",
       "language": "TypeScript",
-      "stars": 15210,
-      "forks": 1456,
-      "stars_period": 5475
+      "stars": 15263,
+      "forks": 1462,
+      "stars_period": 5601
     },
     {
       "rank": 9,
@@ -99,9 +99,9 @@
       "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
       "description_ko": "dsh에 이 플러그인을 설치하기만 하면 로그인, 가입, API 키 입력 없이도 DeepSeek V4.1 Flash, Kimi K3 등 최첨단 모델을 사용할 수 있습니다. 완전 무료이며 사용량 제한이 없습니다. dsh에 이 플러그인을 설치하기만 하면 됩니다. 로그인, 가입, API 키 입력이 필요 없습니다. DeepSeek V4.1 Flash, Kimi K3를 비롯한 최첨단 모델을 바로 사용할 수 있습니다. 완전히 무료이며 사용량 제한이 없습니다.",
       "language": "JavaScript",
-      "stars": 87990,
-      "forks": 2491,
-      "stars_period": 47629
+      "stars": 88209,
+      "forks": 2498,
+      "stars_period": 46809
     },
     {
       "rank": 10,
@@ -110,9 +110,9 @@
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "description_ko": "평생 개인 맞춤형 튜터, 딥튜터.",
       "language": "Python",
-      "stars": 63164,
-      "forks": 7618,
-      "stars_period": 20351
+      "stars": 63320,
+      "forks": 7641,
+      "stars_period": 20206
     }
   ]
 }
